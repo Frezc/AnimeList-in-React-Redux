@@ -1,0 +1,1665 @@
+[{
+	"weekday": {
+		"en": "Mon",
+		"cn": "\u661f\u671f\u4e00",
+		"ja": "\u6708\u8000\u65e5",
+		"id": 1
+	},
+	"items": [{
+		"id": 117601,
+		"url": "http:\/\/bgm.tv\/subject\/117601",
+		"type": 0,
+		"name": "\u84bc\u306e\u5f7c\u65b9\u306e\u30d5\u30a9\u30fc\u30ea\u30ba\u30e0",
+		"name_cn": "\u82cd\u4e4b\u5f7c\u65b9\u7684\u56db\u91cd\u594f",
+		"summary": "",
+		"eps": 0,
+		"air_date": "2016-01-11",
+		"air_weekday": 1,
+		"images": {
+			"large": "http:\/\/lain.bgm.tv\/pic\/cover\/l\/07\/d4\/117601_1AaI3.jpg",
+			"common": "http:\/\/lain.bgm.tv\/pic\/cover\/c\/07\/d4\/117601_1AaI3.jpg",
+			"medium": "http:\/\/lain.bgm.tv\/pic\/cover\/m\/07\/d4\/117601_1AaI3.jpg",
+			"small": "http:\/\/lain.bgm.tv\/pic\/cover\/s\/07\/d4\/117601_1AaI3.jpg",
+			"grid": "http:\/\/lain.bgm.tv\/pic\/cover\/g\/07\/d4\/117601_1AaI3.jpg"
+		},
+		"collection": {
+			"wish": 0,
+			"collect": 0,
+			"doing": 639,
+			"on_hold": 0,
+			"dropped": 0
+		}
+	}, {
+		"id": 129844,
+		"url": "http:\/\/bgm.tv\/subject\/129844",
+		"type": 0,
+		"name": "\u30c0\u30a4\u30e4\u306eA -SECOND SEASON-",
+		"name_cn": "\u94bb\u77f3\u738b\u724c \u7b2c\u4e8c\u5b63",
+		"summary": "",
+		"eps": 0,
+		"air_date": "2015-04-06",
+		"air_weekday": 1,
+		"images": {
+			"large": "http:\/\/lain.bgm.tv\/pic\/cover\/l\/1c\/90\/129844_NwzEg.jpg",
+			"common": "http:\/\/lain.bgm.tv\/pic\/cover\/c\/1c\/90\/129844_NwzEg.jpg",
+			"medium": "http:\/\/lain.bgm.tv\/pic\/cover\/m\/1c\/90\/129844_NwzEg.jpg",
+			"small": "http:\/\/lain.bgm.tv\/pic\/cover\/s\/1c\/90\/129844_NwzEg.jpg",
+			"grid": "http:\/\/lain.bgm.tv\/pic\/cover\/g\/1c\/90\/129844_NwzEg.jpg"
+		},
+		"collection": {
+			"wish": 0,
+			"collect": 0,
+			"doing": 219,
+			"on_hold": 0,
+			"dropped": 0
+		}
+	}, {
+		"id": 133387,
+		"url": "http:\/\/bgm.tv\/subject\/133387",
+		"type": 0,
+		"name": "\u6700\u5f31\u7121\u6557\u306e\u795e\u88c5\u6a5f\u7adc",
+		"name_cn": "\u6700\u5f31\u65e0\u8d25\u795e\u88c5\u673a\u9f99",
+		"summary": "",
+		"eps": 0,
+		"air_date": "2016-01-11",
+		"air_weekday": 1,
+		"images": {
+			"large": "http:\/\/lain.bgm.tv\/pic\/cover\/l\/f4\/1f\/133387_KVJ2a.jpg",
+			"common": "http:\/\/lain.bgm.tv\/pic\/cover\/c\/f4\/1f\/133387_KVJ2a.jpg",
+			"medium": "http:\/\/lain.bgm.tv\/pic\/cover\/m\/f4\/1f\/133387_KVJ2a.jpg",
+			"small": "http:\/\/lain.bgm.tv\/pic\/cover\/s\/f4\/1f\/133387_KVJ2a.jpg",
+			"grid": "http:\/\/lain.bgm.tv\/pic\/cover\/g\/f4\/1f\/133387_KVJ2a.jpg"
+		},
+		"collection": {
+			"wish": 0,
+			"collect": 0,
+			"doing": 417,
+			"on_hold": 0,
+			"dropped": 0
+		}
+	}, {
+		"id": 139408,
+		"url": "http:\/\/bgm.tv\/subject\/139408",
+		"type": 0,
+		"name": "\u304a\u305d\u677e\u3055\u3093",
+		"name_cn": "\u963f\u677e",
+		"summary": "",
+		"eps": 0,
+		"air_date": "2015-10-05",
+		"air_weekday": 1,
+		"images": {
+			"large": "http:\/\/lain.bgm.tv\/pic\/cover\/l\/c0\/fe\/139408_yqY6B.jpg",
+			"common": "http:\/\/lain.bgm.tv\/pic\/cover\/c\/c0\/fe\/139408_yqY6B.jpg",
+			"medium": "http:\/\/lain.bgm.tv\/pic\/cover\/m\/c0\/fe\/139408_yqY6B.jpg",
+			"small": "http:\/\/lain.bgm.tv\/pic\/cover\/s\/c0\/fe\/139408_yqY6B.jpg",
+			"grid": "http:\/\/lain.bgm.tv\/pic\/cover\/g\/c0\/fe\/139408_yqY6B.jpg"
+		},
+		"collection": {
+			"wish": 0,
+			"collect": 0,
+			"doing": 1046,
+			"on_hold": 0,
+			"dropped": 0
+		}
+	}, {
+		"id": 145407,
+		"url": "http:\/\/bgm.tv\/subject\/145407",
+		"type": 0,
+		"name": "\u8d64\u9aea\u306e\u767d\u96ea\u59eb \u7b2c2\u30af\u30fc\u30eb",
+		"name_cn": "\u8d64\u53d1\u767d\u96ea\u59ec \u7b2c\u4e8c\u5b63",
+		"summary": "",
+		"eps": 0,
+		"air_date": "2016-01-11",
+		"air_weekday": 1,
+		"images": {
+			"large": "http:\/\/lain.bgm.tv\/pic\/cover\/l\/d0\/37\/145407_8Ukug.jpg",
+			"common": "http:\/\/lain.bgm.tv\/pic\/cover\/c\/d0\/37\/145407_8Ukug.jpg",
+			"medium": "http:\/\/lain.bgm.tv\/pic\/cover\/m\/d0\/37\/145407_8Ukug.jpg",
+			"small": "http:\/\/lain.bgm.tv\/pic\/cover\/s\/d0\/37\/145407_8Ukug.jpg",
+			"grid": "http:\/\/lain.bgm.tv\/pic\/cover\/g\/d0\/37\/145407_8Ukug.jpg"
+		},
+		"collection": {
+			"wish": 0,
+			"collect": 0,
+			"doing": 407,
+			"on_hold": 0,
+			"dropped": 0
+		}
+	}, {
+		"id": 146162,
+		"url": "http:\/\/bgm.tv\/subject\/146162",
+		"type": 0,
+		"name": "JK\u3081\u3057\uff01",
+		"name_cn": "\u5973\u9ad8\u4e2d\u751f\u7ed9\u4f60\u505a\u996d\u4e86\uff01",
+		"summary": "",
+		"eps": 0,
+		"air_date": "2015-10-05",
+		"air_weekday": 1,
+		"images": {
+			"large": "http:\/\/lain.bgm.tv\/pic\/cover\/l\/49\/2e\/146162_UxxR6.jpg",
+			"common": "http:\/\/lain.bgm.tv\/pic\/cover\/c\/49\/2e\/146162_UxxR6.jpg",
+			"medium": "http:\/\/lain.bgm.tv\/pic\/cover\/m\/49\/2e\/146162_UxxR6.jpg",
+			"small": "http:\/\/lain.bgm.tv\/pic\/cover\/s\/49\/2e\/146162_UxxR6.jpg",
+			"grid": "http:\/\/lain.bgm.tv\/pic\/cover\/g\/49\/2e\/146162_UxxR6.jpg"
+		},
+		"collection": {
+			"wish": 0,
+			"collect": 0,
+			"doing": 96,
+			"on_hold": 0,
+			"dropped": 0
+		}
+	}, {
+		"id": 159365,
+		"url": "http:\/\/bgm.tv\/subject\/159365",
+		"type": 0,
+		"name": "\u3066\u30fc\u304d\u3085\u3046 7\u671f",
+		"name_cn": "\u7f51\u7403\u5c11\u5973 7\u671f",
+		"summary": "",
+		"eps": 0,
+		"air_date": "2016-01-11",
+		"air_weekday": 1,
+		"images": {
+			"large": "http:\/\/lain.bgm.tv\/pic\/cover\/l\/80\/5f\/159365_RkM7b.jpg",
+			"common": "http:\/\/lain.bgm.tv\/pic\/cover\/c\/80\/5f\/159365_RkM7b.jpg",
+			"medium": "http:\/\/lain.bgm.tv\/pic\/cover\/m\/80\/5f\/159365_RkM7b.jpg",
+			"small": "http:\/\/lain.bgm.tv\/pic\/cover\/s\/80\/5f\/159365_RkM7b.jpg",
+			"grid": "http:\/\/lain.bgm.tv\/pic\/cover\/g\/80\/5f\/159365_RkM7b.jpg"
+		},
+		"collection": {
+			"wish": 0,
+			"collect": 0,
+			"doing": 155,
+			"on_hold": 0,
+			"dropped": 0
+		}
+	}, {
+		"id": 159892,
+		"url": "http:\/\/bgm.tv\/subject\/159892",
+		"type": 0,
+		"name": "\u8840\u6db2\u578b\u304f\u3093!4",
+		"name_cn": "\u8840\u578b\u541b4",
+		"summary": "",
+		"eps": 0,
+		"air_date": "2016-01-11",
+		"air_weekday": 1,
+		"images": {
+			"large": "http:\/\/lain.bgm.tv\/pic\/cover\/l\/16\/5d\/159892_JEaF5.jpg",
+			"common": "http:\/\/lain.bgm.tv\/pic\/cover\/c\/16\/5d\/159892_JEaF5.jpg",
+			"medium": "http:\/\/lain.bgm.tv\/pic\/cover\/m\/16\/5d\/159892_JEaF5.jpg",
+			"small": "http:\/\/lain.bgm.tv\/pic\/cover\/s\/16\/5d\/159892_JEaF5.jpg",
+			"grid": "http:\/\/lain.bgm.tv\/pic\/cover\/g\/16\/5d\/159892_JEaF5.jpg"
+		},
+		"collection": {
+			"wish": 0,
+			"collect": 0,
+			"doing": 170,
+			"on_hold": 0,
+			"dropped": 0
+		}
+	}]
+}, {
+	"weekday": {
+		"en": "Tue",
+		"cn": "\u661f\u671f\u4e8c",
+		"ja": "\u706b\u8000\u65e5",
+		"id": 2
+	},
+	"items": [{
+		"id": 131717,
+		"url": "http:\/\/bgm.tv\/subject\/131717",
+		"type": 0,
+		"name": "\u65b0\u3042\u305f\u3057\u3093\u3061",
+		"name_cn": "\u65b0\u6211\u4eec\u8fd9\u4e00\u5bb6",
+		"summary": "",
+		"eps": 0,
+		"air_date": "2015-10-06",
+		"air_weekday": 2,
+		"images": {
+			"large": "http:\/\/lain.bgm.tv\/pic\/cover\/l\/a8\/6a\/131717_DDgOS.jpg",
+			"common": "http:\/\/lain.bgm.tv\/pic\/cover\/c\/a8\/6a\/131717_DDgOS.jpg",
+			"medium": "http:\/\/lain.bgm.tv\/pic\/cover\/m\/a8\/6a\/131717_DDgOS.jpg",
+			"small": "http:\/\/lain.bgm.tv\/pic\/cover\/s\/a8\/6a\/131717_DDgOS.jpg",
+			"grid": "http:\/\/lain.bgm.tv\/pic\/cover\/g\/a8\/6a\/131717_DDgOS.jpg"
+		},
+		"collection": {
+			"wish": 0,
+			"collect": 0,
+			"doing": 47,
+			"on_hold": 0,
+			"dropped": 0
+		}
+	}, {
+		"id": 145781,
+		"url": "http:\/\/bgm.tv\/subject\/145781",
+		"type": 0,
+		"name": "\u30d7\u30ea\u30f3\u30b9\u30fb\u30aa\u30d6\u30fb\u30b9\u30c8\u30e9\u30a4\u30c9 \u30aa\u30eb\u30bf\u30ca\u30c6\u30a3\u30d6",
+		"name_cn": "\u75be\u8d70\u738b\u5b50 Alternative",
+		"summary": "",
+		"eps": 0,
+		"air_date": "2016-01-05",
+		"air_weekday": 2,
+		"images": {
+			"large": "http:\/\/lain.bgm.tv\/pic\/cover\/l\/a0\/e7\/145781_wNd6w.jpg",
+			"common": "http:\/\/lain.bgm.tv\/pic\/cover\/c\/a0\/e7\/145781_wNd6w.jpg",
+			"medium": "http:\/\/lain.bgm.tv\/pic\/cover\/m\/a0\/e7\/145781_wNd6w.jpg",
+			"small": "http:\/\/lain.bgm.tv\/pic\/cover\/s\/a0\/e7\/145781_wNd6w.jpg",
+			"grid": "http:\/\/lain.bgm.tv\/pic\/cover\/g\/a0\/e7\/145781_wNd6w.jpg"
+		},
+		"collection": {
+			"wish": 0,
+			"collect": 0,
+			"doing": 364,
+			"on_hold": 0,
+			"dropped": 0
+		}
+	}]
+}, {
+	"weekday": {
+		"en": "Wed",
+		"cn": "\u661f\u671f\u4e09",
+		"ja": "\u6c34\u8000\u65e5",
+		"id": 3
+	},
+	"items": [{
+		"id": 94040,
+		"url": "http:\/\/bgm.tv\/subject\/94040",
+		"type": 0,
+		"name": "\u7121\u5f69\u9650\u306e\u30d5\u30a1\u30f3\u30c8\u30e0\u30fb\u30ef\u30fc\u30eb\u30c9",
+		"name_cn": "\u65e0\u5f69\u9650\u7684\u602a\u7075\u4e16\u754c",
+		"summary": "",
+		"eps": 0,
+		"air_date": "2016-01-06",
+		"air_weekday": 3,
+		"images": {
+			"large": "http:\/\/lain.bgm.tv\/pic\/cover\/l\/20\/7e\/94040_kOkAg.jpg",
+			"common": "http:\/\/lain.bgm.tv\/pic\/cover\/c\/20\/7e\/94040_kOkAg.jpg",
+			"medium": "http:\/\/lain.bgm.tv\/pic\/cover\/m\/20\/7e\/94040_kOkAg.jpg",
+			"small": "http:\/\/lain.bgm.tv\/pic\/cover\/s\/20\/7e\/94040_kOkAg.jpg",
+			"grid": "http:\/\/lain.bgm.tv\/pic\/cover\/g\/20\/7e\/94040_kOkAg.jpg"
+		},
+		"collection": {
+			"wish": 0,
+			"collect": 0,
+			"doing": 1328,
+			"on_hold": 0,
+			"dropped": 0
+		}
+	}, {
+		"id": 120791,
+		"url": "http:\/\/bgm.tv\/subject\/120791",
+		"type": 0,
+		"name": "\u9280\u9b42\u00b0",
+		"name_cn": "\u94f6\u9b42\u00b0",
+		"summary": "",
+		"eps": 0,
+		"air_date": "2015-04-08",
+		"air_weekday": 3,
+		"images": {
+			"large": "http:\/\/lain.bgm.tv\/pic\/cover\/l\/92\/f6\/120791_0Sfdz.jpg",
+			"common": "http:\/\/lain.bgm.tv\/pic\/cover\/c\/92\/f6\/120791_0Sfdz.jpg",
+			"medium": "http:\/\/lain.bgm.tv\/pic\/cover\/m\/92\/f6\/120791_0Sfdz.jpg",
+			"small": "http:\/\/lain.bgm.tv\/pic\/cover\/s\/92\/f6\/120791_0Sfdz.jpg",
+			"grid": "http:\/\/lain.bgm.tv\/pic\/cover\/g\/92\/f6\/120791_0Sfdz.jpg"
+		},
+		"collection": {
+			"wish": 0,
+			"collect": 0,
+			"doing": 1294,
+			"on_hold": 0,
+			"dropped": 0
+		}
+	}, {
+		"id": 122567,
+		"url": "http:\/\/bgm.tv\/subject\/122567",
+		"type": 0,
+		"name": "\u30d0\u30c8\u30eb\u30b9\u30d4\u30ea\u30c3\u30c4 \u70c8\u706b\u9b42",
+		"name_cn": "\u6218\u6597\u4e4b\u9b42 \u70c8\u706b\u7075\u9b42",
+		"summary": "",
+		"eps": 0,
+		"air_date": "2015-04-01",
+		"air_weekday": 3,
+		"images": {
+			"large": "http:\/\/lain.bgm.tv\/pic\/cover\/l\/5a\/85\/122567_kBed7.jpg",
+			"common": "http:\/\/lain.bgm.tv\/pic\/cover\/c\/5a\/85\/122567_kBed7.jpg",
+			"medium": "http:\/\/lain.bgm.tv\/pic\/cover\/m\/5a\/85\/122567_kBed7.jpg",
+			"small": "http:\/\/lain.bgm.tv\/pic\/cover\/s\/5a\/85\/122567_kBed7.jpg",
+			"grid": "http:\/\/lain.bgm.tv\/pic\/cover\/g\/5a\/85\/122567_kBed7.jpg"
+		},
+		"collection": {
+			"wish": 0,
+			"collect": 0,
+			"doing": 14,
+			"on_hold": 0,
+			"dropped": 0
+		}
+	}, {
+		"id": 135275,
+		"url": "http:\/\/bgm.tv\/subject\/135275",
+		"type": 0,
+		"name": "\u3053\u306e\u7d20\u6674\u3089\u3057\u3044\u4e16\u754c\u306b\u795d\u798f\u3092\uff01",
+		"name_cn": "\u4e3a\u7f8e\u597d\u7684\u4e16\u754c\u732e\u4e0a\u795d\u798f\uff01",
+		"summary": "",
+		"eps": 0,
+		"air_date": "2016-01-13",
+		"air_weekday": 3,
+		"images": {
+			"large": "http:\/\/lain.bgm.tv\/pic\/cover\/l\/56\/de\/135275_yqqg6.jpg",
+			"common": "http:\/\/lain.bgm.tv\/pic\/cover\/c\/56\/de\/135275_yqqg6.jpg",
+			"medium": "http:\/\/lain.bgm.tv\/pic\/cover\/m\/56\/de\/135275_yqqg6.jpg",
+			"small": "http:\/\/lain.bgm.tv\/pic\/cover\/s\/56\/de\/135275_yqqg6.jpg",
+			"grid": "http:\/\/lain.bgm.tv\/pic\/cover\/g\/56\/de\/135275_yqqg6.jpg"
+		},
+		"collection": {
+			"wish": 0,
+			"collect": 0,
+			"doing": 821,
+			"on_hold": 0,
+			"dropped": 0
+		}
+	}, {
+		"id": 136213,
+		"url": "http:\/\/bgm.tv\/subject\/136213",
+		"type": 0,
+		"name": "\u30cf\u30eb\u30c1\u30ab\u301c\u30cf\u30eb\u30bf\u3068\u30c1\u30ab\u306f\u9752\u6625\u3059\u308b\u301c",
+		"name_cn": "\u6625&amp;\u590f\u63a8\u7406\u4e8b\u4ef6\u7c3f\uff5e\u6625\u592a\u4e0e\u5343\u590f\u7684\u9752\u6625\uff5e",
+		"summary": "",
+		"eps": 0,
+		"air_date": "2016-01-06",
+		"air_weekday": 3,
+		"images": {
+			"large": "http:\/\/lain.bgm.tv\/pic\/cover\/l\/f9\/73\/136213_0owF9.jpg",
+			"common": "http:\/\/lain.bgm.tv\/pic\/cover\/c\/f9\/73\/136213_0owF9.jpg",
+			"medium": "http:\/\/lain.bgm.tv\/pic\/cover\/m\/f9\/73\/136213_0owF9.jpg",
+			"small": "http:\/\/lain.bgm.tv\/pic\/cover\/s\/f9\/73\/136213_0owF9.jpg",
+			"grid": "http:\/\/lain.bgm.tv\/pic\/cover\/g\/f9\/73\/136213_0owF9.jpg"
+		},
+		"collection": {
+			"wish": 0,
+			"collect": 0,
+			"doing": 795,
+			"on_hold": 0,
+			"dropped": 0
+		}
+	}, {
+		"id": 162792,
+		"url": "http:\/\/bgm.tv\/subject\/162792",
+		"type": 0,
+		"name": "SUSHI POLICE",
+		"name_cn": "\u5bff\u53f8\u8b66\u5bdf",
+		"summary": "",
+		"eps": 0,
+		"air_date": "2016-01-06",
+		"air_weekday": 3,
+		"images": {
+			"large": "http:\/\/lain.bgm.tv\/pic\/cover\/l\/ad\/c2\/162792_KY46U.jpg",
+			"common": "http:\/\/lain.bgm.tv\/pic\/cover\/c\/ad\/c2\/162792_KY46U.jpg",
+			"medium": "http:\/\/lain.bgm.tv\/pic\/cover\/m\/ad\/c2\/162792_KY46U.jpg",
+			"small": "http:\/\/lain.bgm.tv\/pic\/cover\/s\/ad\/c2\/162792_KY46U.jpg",
+			"grid": "http:\/\/lain.bgm.tv\/pic\/cover\/g\/ad\/c2\/162792_KY46U.jpg"
+		},
+		"collection": {
+			"wish": 0,
+			"collect": 0,
+			"doing": 92,
+			"on_hold": 0,
+			"dropped": 0
+		}
+	}]
+}, {
+	"weekday": {
+		"en": "Thu",
+		"cn": "\u661f\u671f\u56db",
+		"ja": "\u6728\u8000\u65e5",
+		"id": 4
+	},
+	"items": [{
+		"id": 2782,
+		"url": "http:\/\/bgm.tv\/subject\/2782",
+		"type": 0,
+		"name": "NARUTO -\u30ca\u30eb\u30c8- \u75be\u98a8\u4f1d",
+		"name_cn": "\u706b\u5f71\u5fcd\u8005\u75be\u98ce\u4f20",
+		"summary": "",
+		"eps": 0,
+		"air_date": "2007-02-15",
+		"air_weekday": 4,
+		"images": {
+			"large": "http:\/\/lain.bgm.tv\/pic\/cover\/l\/60\/24\/2782_r0650.jpg",
+			"common": "http:\/\/lain.bgm.tv\/pic\/cover\/c\/60\/24\/2782_r0650.jpg",
+			"medium": "http:\/\/lain.bgm.tv\/pic\/cover\/m\/60\/24\/2782_r0650.jpg",
+			"small": "http:\/\/lain.bgm.tv\/pic\/cover\/s\/60\/24\/2782_r0650.jpg",
+			"grid": "http:\/\/lain.bgm.tv\/pic\/cover\/g\/60\/24\/2782_r0650.jpg"
+		},
+		"collection": {
+			"wish": 0,
+			"collect": 0,
+			"doing": 835,
+			"on_hold": 0,
+			"dropped": 0
+		}
+	}, {
+		"id": 98638,
+		"url": "http:\/\/bgm.tv\/subject\/98638",
+		"type": 0,
+		"name": "NORN9 \u30ce\u30eb\u30f3\uff0b\u30ce\u30cd\u30c3\u30c8",
+		"name_cn": "\u547d\u8fd0\u4e5d\u91cd\u594f",
+		"summary": "",
+		"eps": 0,
+		"air_date": "2016-01-07",
+		"air_weekday": 4,
+		"images": {
+			"large": "http:\/\/lain.bgm.tv\/pic\/cover\/l\/c7\/98\/98638_0g1p6.jpg",
+			"common": "http:\/\/lain.bgm.tv\/pic\/cover\/c\/c7\/98\/98638_0g1p6.jpg",
+			"medium": "http:\/\/lain.bgm.tv\/pic\/cover\/m\/c7\/98\/98638_0g1p6.jpg",
+			"small": "http:\/\/lain.bgm.tv\/pic\/cover\/s\/c7\/98\/98638_0g1p6.jpg",
+			"grid": "http:\/\/lain.bgm.tv\/pic\/cover\/g\/c7\/98\/98638_0g1p6.jpg"
+		},
+		"collection": {
+			"wish": 0,
+			"collect": 0,
+			"doing": 212,
+			"on_hold": 0,
+			"dropped": 0
+		}
+	}, {
+		"id": 131891,
+		"url": "http:\/\/bgm.tv\/subject\/131891",
+		"type": 0,
+		"name": "\u6697\u6bba\u6559\u5ba4 \u7b2c2\u671f",
+		"name_cn": "\u6697\u6740\u6559\u5ba4 \u7b2c\u4e8c\u5b63",
+		"summary": "",
+		"eps": 0,
+		"air_date": "2016-01-07",
+		"air_weekday": 4,
+		"images": {
+			"large": "http:\/\/lain.bgm.tv\/pic\/cover\/l\/68\/64\/131891_dR2ZT.jpg",
+			"common": "http:\/\/lain.bgm.tv\/pic\/cover\/c\/68\/64\/131891_dR2ZT.jpg",
+			"medium": "http:\/\/lain.bgm.tv\/pic\/cover\/m\/68\/64\/131891_dR2ZT.jpg",
+			"small": "http:\/\/lain.bgm.tv\/pic\/cover\/s\/68\/64\/131891_dR2ZT.jpg",
+			"grid": "http:\/\/lain.bgm.tv\/pic\/cover\/g\/68\/64\/131891_dR2ZT.jpg"
+		},
+		"collection": {
+			"wish": 0,
+			"collect": 0,
+			"doing": 801,
+			"on_hold": 0,
+			"dropped": 0
+		}
+	}, {
+		"id": 137722,
+		"url": "http:\/\/bgm.tv\/subject\/137722",
+		"type": 0,
+		"name": "\u50d5\u3060\u3051\u304c\u3044\u306a\u3044\u8857",
+		"name_cn": "\u53ea\u6709\u6211\u4e0d\u5b58\u5728\u7684\u57ce\u5e02",
+		"summary": "",
+		"eps": 0,
+		"air_date": "2016-01-07",
+		"air_weekday": 4,
+		"images": {
+			"large": "http:\/\/lain.bgm.tv\/pic\/cover\/l\/39\/2f\/137722_Iid43.jpg",
+			"common": "http:\/\/lain.bgm.tv\/pic\/cover\/c\/39\/2f\/137722_Iid43.jpg",
+			"medium": "http:\/\/lain.bgm.tv\/pic\/cover\/m\/39\/2f\/137722_Iid43.jpg",
+			"small": "http:\/\/lain.bgm.tv\/pic\/cover\/s\/39\/2f\/137722_Iid43.jpg",
+			"grid": "http:\/\/lain.bgm.tv\/pic\/cover\/g\/39\/2f\/137722_Iid43.jpg"
+		},
+		"collection": {
+			"wish": 0,
+			"collect": 0,
+			"doing": 1706,
+			"on_hold": 0,
+			"dropped": 0
+		}
+	}, {
+		"id": 137894,
+		"url": "http:\/\/bgm.tv\/subject\/137894",
+		"type": 0,
+		"name": "\u304b\u307f\u3055\u307e\u307f\u306a\u3089\u3044 \u30d2\u30df\u30c4\u306e\u3053\u3053\u305f\u307e",
+		"name_cn": "\u89c1\u4e60\u795e\u4ed9 \u79d8\u5bc6\u7684\u5fc3\u7075",
+		"summary": "",
+		"eps": 0,
+		"air_date": "2015-10-01",
+		"air_weekday": 4,
+		"images": {
+			"large": "http:\/\/lain.bgm.tv\/pic\/cover\/l\/38\/17\/137894_H1aIy.jpg",
+			"common": "http:\/\/lain.bgm.tv\/pic\/cover\/c\/38\/17\/137894_H1aIy.jpg",
+			"medium": "http:\/\/lain.bgm.tv\/pic\/cover\/m\/38\/17\/137894_H1aIy.jpg",
+			"small": "http:\/\/lain.bgm.tv\/pic\/cover\/s\/38\/17\/137894_H1aIy.jpg",
+			"grid": "http:\/\/lain.bgm.tv\/pic\/cover\/g\/38\/17\/137894_H1aIy.jpg"
+		},
+		"collection": {
+			"wish": 0,
+			"collect": 0,
+			"doing": 11,
+			"on_hold": 0,
+			"dropped": 0
+		}
+	}, {
+		"id": 138210,
+		"url": "http:\/\/bgm.tv\/subject\/138210",
+		"type": 0,
+		"name": "\u304a\u3058\u3055\u3093\u3068\u30de\u30b7\u30e5\u30de\u30ed",
+		"name_cn": "\u5927\u53d4\u4e0e\u68c9\u82b1\u7cd6",
+		"summary": "",
+		"eps": 0,
+		"air_date": "2016-01-07",
+		"air_weekday": 4,
+		"images": {
+			"large": "http:\/\/lain.bgm.tv\/pic\/cover\/l\/d9\/01\/138210_s48P8.jpg",
+			"common": "http:\/\/lain.bgm.tv\/pic\/cover\/c\/d9\/01\/138210_s48P8.jpg",
+			"medium": "http:\/\/lain.bgm.tv\/pic\/cover\/m\/d9\/01\/138210_s48P8.jpg",
+			"small": "http:\/\/lain.bgm.tv\/pic\/cover\/s\/d9\/01\/138210_s48P8.jpg",
+			"grid": "http:\/\/lain.bgm.tv\/pic\/cover\/g\/d9\/01\/138210_s48P8.jpg"
+		},
+		"collection": {
+			"wish": 0,
+			"collect": 0,
+			"doing": 345,
+			"on_hold": 0,
+			"dropped": 0
+		}
+	}, {
+		"id": 139830,
+		"url": "http:\/\/bgm.tv\/subject\/139830",
+		"type": 0,
+		"name": "\u30d5\u30a1\u30f3\u30bf\u30b7\u30fc\u30b9\u30bf\u30fc\u30aa\u30f3\u30e9\u30a4\u30f32 the ANIMATION",
+		"name_cn": "\u68a6\u5e7b\u4e4b\u661fonline2",
+		"summary": "",
+		"eps": 0,
+		"air_date": "2016-01-07",
+		"air_weekday": 4,
+		"images": {
+			"large": "http:\/\/lain.bgm.tv\/pic\/cover\/l\/a9\/0b\/139830_2nnam.jpg",
+			"common": "http:\/\/lain.bgm.tv\/pic\/cover\/c\/a9\/0b\/139830_2nnam.jpg",
+			"medium": "http:\/\/lain.bgm.tv\/pic\/cover\/m\/a9\/0b\/139830_2nnam.jpg",
+			"small": "http:\/\/lain.bgm.tv\/pic\/cover\/s\/a9\/0b\/139830_2nnam.jpg",
+			"grid": "http:\/\/lain.bgm.tv\/pic\/cover\/g\/a9\/0b\/139830_2nnam.jpg"
+		},
+		"collection": {
+			"wish": 0,
+			"collect": 0,
+			"doing": 183,
+			"on_hold": 0,
+			"dropped": 0
+		}
+	}, {
+		"id": 141616,
+		"url": "http:\/\/bgm.tv\/subject\/141616",
+		"type": 0,
+		"name": "\u30a2\u30a4\u30ab\u30c4!4\u5e74\u76ee",
+		"name_cn": "\u5076\u50cf\u6d3b\u52a8 \u7b2c\u56db\u5e74",
+		"summary": "",
+		"eps": 0,
+		"air_date": "2015-10-01",
+		"air_weekday": 4,
+		"images": {
+			"large": "http:\/\/lain.bgm.tv\/pic\/cover\/l\/23\/47\/141616_OjJ5M.jpg",
+			"common": "http:\/\/lain.bgm.tv\/pic\/cover\/c\/23\/47\/141616_OjJ5M.jpg",
+			"medium": "http:\/\/lain.bgm.tv\/pic\/cover\/m\/23\/47\/141616_OjJ5M.jpg",
+			"small": "http:\/\/lain.bgm.tv\/pic\/cover\/s\/23\/47\/141616_OjJ5M.jpg",
+			"grid": "http:\/\/lain.bgm.tv\/pic\/cover\/g\/23\/47\/141616_OjJ5M.jpg"
+		},
+		"collection": {
+			"wish": 0,
+			"collect": 0,
+			"doing": 35,
+			"on_hold": 0,
+			"dropped": 0
+		}
+	}, {
+		"id": 146408,
+		"url": "http:\/\/bgm.tv\/subject\/146408",
+		"type": 0,
+		"name": "\u30dd\u30b1\u30c3\u30c8\u30e2\u30f3\u30b9\u30bf\u30fcXY&amp;Z",
+		"name_cn": "\u53e3\u888b\u5996\u602aXY&amp;Z",
+		"summary": "",
+		"eps": 0,
+		"air_date": "2015-10-29",
+		"air_weekday": 4,
+		"images": {
+			"large": "http:\/\/lain.bgm.tv\/pic\/cover\/l\/07\/9e\/146408_N5X4T.jpg",
+			"common": "http:\/\/lain.bgm.tv\/pic\/cover\/c\/07\/9e\/146408_N5X4T.jpg",
+			"medium": "http:\/\/lain.bgm.tv\/pic\/cover\/m\/07\/9e\/146408_N5X4T.jpg",
+			"small": "http:\/\/lain.bgm.tv\/pic\/cover\/s\/07\/9e\/146408_N5X4T.jpg",
+			"grid": "http:\/\/lain.bgm.tv\/pic\/cover\/g\/07\/9e\/146408_N5X4T.jpg"
+		},
+		"collection": {
+			"wish": 0,
+			"collect": 0,
+			"doing": 100,
+			"on_hold": 0,
+			"dropped": 0
+		}
+	}, {
+		"id": 146994,
+		"url": "http:\/\/bgm.tv\/subject\/146994",
+		"type": 0,
+		"name": "\u3060\u304c\u3057\u304b\u3057",
+		"name_cn": "\u7c97\u70b9\u5fc3\u6218\u4e89",
+		"summary": "",
+		"eps": 0,
+		"air_date": "2016-01-07",
+		"air_weekday": 4,
+		"images": {
+			"large": "http:\/\/lain.bgm.tv\/pic\/cover\/l\/a9\/23\/146994_7SYIy.jpg",
+			"common": "http:\/\/lain.bgm.tv\/pic\/cover\/c\/a9\/23\/146994_7SYIy.jpg",
+			"medium": "http:\/\/lain.bgm.tv\/pic\/cover\/m\/a9\/23\/146994_7SYIy.jpg",
+			"small": "http:\/\/lain.bgm.tv\/pic\/cover\/s\/a9\/23\/146994_7SYIy.jpg",
+			"grid": "http:\/\/lain.bgm.tv\/pic\/cover\/g\/a9\/23\/146994_7SYIy.jpg"
+		},
+		"collection": {
+			"wish": 0,
+			"collect": 0,
+			"doing": 1177,
+			"on_hold": 0,
+			"dropped": 0
+		}
+	}, {
+		"id": 148233,
+		"url": "http:\/\/bgm.tv\/subject\/148233",
+		"type": 0,
+		"name": "\u30a2\u30af\u30c6\u30a3\u30f4\u30ec\u30a4\u30c9 -\u6a5f\u52d5\u5f37\u8972\u5ba4\u7b2c\u516b\u4fc2-",
+		"name_cn": "Active Raid -\u673a\u52a8\u5f3a\u88ad\u5ba4\u7b2c\u516b\u8bfe-",
+		"summary": "",
+		"eps": 0,
+		"air_date": "2016-01-07",
+		"air_weekday": 4,
+		"images": {
+			"large": "http:\/\/lain.bgm.tv\/pic\/cover\/l\/fa\/ab\/148233_m19Hc.jpg",
+			"common": "http:\/\/lain.bgm.tv\/pic\/cover\/c\/fa\/ab\/148233_m19Hc.jpg",
+			"medium": "http:\/\/lain.bgm.tv\/pic\/cover\/m\/fa\/ab\/148233_m19Hc.jpg",
+			"small": "http:\/\/lain.bgm.tv\/pic\/cover\/s\/fa\/ab\/148233_m19Hc.jpg",
+			"grid": "http:\/\/lain.bgm.tv\/pic\/cover\/g\/fa\/ab\/148233_m19Hc.jpg"
+		},
+		"collection": {
+			"wish": 0,
+			"collect": 0,
+			"doing": 434,
+			"on_hold": 0,
+			"dropped": 0
+		}
+	}, {
+		"id": 149993,
+		"url": "http:\/\/bgm.tv\/subject\/149993",
+		"type": 0,
+		"name": "\u5c11\u5973\u305f\u3061\u306f\u8352\u91ce\u3092\u76ee\u6307\u3059",
+		"name_cn": "\u5c11\u5973\u4eec\u5411\u8352\u91ce\u8fdb\u53d1",
+		"summary": "",
+		"eps": 0,
+		"air_date": "2016-01-07",
+		"air_weekday": 4,
+		"images": {
+			"large": "http:\/\/lain.bgm.tv\/pic\/cover\/l\/3b\/95\/149993_w0q6W.jpg",
+			"common": "http:\/\/lain.bgm.tv\/pic\/cover\/c\/3b\/95\/149993_w0q6W.jpg",
+			"medium": "http:\/\/lain.bgm.tv\/pic\/cover\/m\/3b\/95\/149993_w0q6W.jpg",
+			"small": "http:\/\/lain.bgm.tv\/pic\/cover\/s\/3b\/95\/149993_w0q6W.jpg",
+			"grid": "http:\/\/lain.bgm.tv\/pic\/cover\/g\/3b\/95\/149993_w0q6W.jpg"
+		},
+		"collection": {
+			"wish": 0,
+			"collect": 0,
+			"doing": 728,
+			"on_hold": 0,
+			"dropped": 0
+		}
+	}, {
+		"id": 162799,
+		"url": "http:\/\/bgm.tv\/subject\/162799",
+		"type": 0,
+		"name": "\u304c\u3093\u3070\u308c\uff01\u30eb\u30eb\u30ed\u30ed \u7b2c3\u30b7\u30ea\u30fc\u30ba",
+		"name_cn": "\u52a0\u6cb9\uff01\u9732\u9732\u843d\u843d \u7b2c3\u671f",
+		"summary": "",
+		"eps": 0,
+		"air_date": "2016-01-21",
+		"air_weekday": 4,
+		"images": {
+			"large": "http:\/\/lain.bgm.tv\/pic\/cover\/l\/74\/01\/162799_8BZ8t.jpg",
+			"common": "http:\/\/lain.bgm.tv\/pic\/cover\/c\/74\/01\/162799_8BZ8t.jpg",
+			"medium": "http:\/\/lain.bgm.tv\/pic\/cover\/m\/74\/01\/162799_8BZ8t.jpg",
+			"small": "http:\/\/lain.bgm.tv\/pic\/cover\/s\/74\/01\/162799_8BZ8t.jpg",
+			"grid": "http:\/\/lain.bgm.tv\/pic\/cover\/g\/74\/01\/162799_8BZ8t.jpg"
+		},
+		"collection": {
+			"wish": 0,
+			"collect": 0,
+			"doing": 0,
+			"on_hold": 0,
+			"dropped": 0
+		}
+	}]
+}, {
+	"weekday": {
+		"en": "Fri",
+		"cn": "\u661f\u671f\u4e94",
+		"ja": "\u91d1\u8000\u65e5",
+		"id": 5
+	},
+	"items": [{
+		"id": 115008,
+		"url": "http:\/\/bgm.tv\/subject\/115008",
+		"type": 0,
+		"name": "\u30d8\u30f4\u30a3\u30fc\u30aa\u30d6\u30b8\u30a7\u30af\u30c8",
+		"name_cn": "\u91cd\u88c5\u6b66\u5668",
+		"summary": "",
+		"eps": 0,
+		"air_date": "2015-10-02",
+		"air_weekday": 5,
+		"images": {
+			"large": "http:\/\/lain.bgm.tv\/pic\/cover\/l\/b0\/92\/115008_VU0VZ.jpg",
+			"common": "http:\/\/lain.bgm.tv\/pic\/cover\/c\/b0\/92\/115008_VU0VZ.jpg",
+			"medium": "http:\/\/lain.bgm.tv\/pic\/cover\/m\/b0\/92\/115008_VU0VZ.jpg",
+			"small": "http:\/\/lain.bgm.tv\/pic\/cover\/s\/b0\/92\/115008_VU0VZ.jpg",
+			"grid": "http:\/\/lain.bgm.tv\/pic\/cover\/g\/b0\/92\/115008_VU0VZ.jpg"
+		},
+		"collection": {
+			"wish": 0,
+			"collect": 0,
+			"doing": 673,
+			"on_hold": 0,
+			"dropped": 0
+		}
+	}, {
+		"id": 119394,
+		"url": "http:\/\/bgm.tv\/subject\/119394",
+		"type": 0,
+		"name": "\u662d\u548c\u5143\u7984\u843d\u8a9e\u5fc3\u4e2d",
+		"name_cn": "\u662d\u548c\u5143\u7984\u843d\u8bed\u5fc3\u4e2d",
+		"summary": "",
+		"eps": 0,
+		"air_date": "2016-01-08",
+		"air_weekday": 5,
+		"images": {
+			"large": "http:\/\/lain.bgm.tv\/pic\/cover\/l\/10\/10\/119394_hloOL.jpg",
+			"common": "http:\/\/lain.bgm.tv\/pic\/cover\/c\/10\/10\/119394_hloOL.jpg",
+			"medium": "http:\/\/lain.bgm.tv\/pic\/cover\/m\/10\/10\/119394_hloOL.jpg",
+			"small": "http:\/\/lain.bgm.tv\/pic\/cover\/s\/10\/10\/119394_hloOL.jpg",
+			"grid": "http:\/\/lain.bgm.tv\/pic\/cover\/g\/10\/10\/119394_hloOL.jpg"
+		},
+		"collection": {
+			"wish": 0,
+			"collect": 0,
+			"doing": 686,
+			"on_hold": 0,
+			"dropped": 0
+		}
+	}, {
+		"id": 134318,
+		"url": "http:\/\/bgm.tv\/subject\/134318",
+		"type": 0,
+		"name": "\u5996\u602a\u30a6\u30a9\u30c3\u30c1 \u30bb\u30ab\u30f3\u30c9\u30b7\u30fc\u30ba\u30f3",
+		"name_cn": "\u5996\u602a\u624b\u8868 \u7b2c\u4e8c\u671f",
+		"summary": "",
+		"eps": 0,
+		"air_date": "2015-07-10",
+		"air_weekday": 5,
+		"images": {
+			"large": "http:\/\/lain.bgm.tv\/pic\/cover\/l\/cc\/be\/134318_6W4ex.jpg",
+			"common": "http:\/\/lain.bgm.tv\/pic\/cover\/c\/cc\/be\/134318_6W4ex.jpg",
+			"medium": "http:\/\/lain.bgm.tv\/pic\/cover\/m\/cc\/be\/134318_6W4ex.jpg",
+			"small": "http:\/\/lain.bgm.tv\/pic\/cover\/s\/cc\/be\/134318_6W4ex.jpg",
+			"grid": "http:\/\/lain.bgm.tv\/pic\/cover\/g\/cc\/be\/134318_6W4ex.jpg"
+		},
+		"collection": {
+			"wish": 0,
+			"collect": 0,
+			"doing": 14,
+			"on_hold": 0,
+			"dropped": 0
+		}
+	}, {
+		"id": 135816,
+		"url": "http:\/\/bgm.tv\/subject\/135816",
+		"type": 0,
+		"name": "\u30c7\u30a3\u30d0\u30a4\u30f3\u30b2\u30fc\u30c8",
+		"name_cn": "\u795e\u5723\u4e4b\u95e8",
+		"summary": "",
+		"eps": 0,
+		"air_date": "2016-01-08",
+		"air_weekday": 5,
+		"images": {
+			"large": "http:\/\/lain.bgm.tv\/pic\/cover\/l\/6d\/c2\/135816_LucU5.jpg",
+			"common": "http:\/\/lain.bgm.tv\/pic\/cover\/c\/6d\/c2\/135816_LucU5.jpg",
+			"medium": "http:\/\/lain.bgm.tv\/pic\/cover\/m\/6d\/c2\/135816_LucU5.jpg",
+			"small": "http:\/\/lain.bgm.tv\/pic\/cover\/s\/6d\/c2\/135816_LucU5.jpg",
+			"grid": "http:\/\/lain.bgm.tv\/pic\/cover\/g\/6d\/c2\/135816_LucU5.jpg"
+		},
+		"collection": {
+			"wish": 0,
+			"collect": 0,
+			"doing": 215,
+			"on_hold": 0,
+			"dropped": 0
+		}
+	}, {
+		"id": 141078,
+		"url": "http:\/\/bgm.tv\/subject\/141078",
+		"type": 0,
+		"name": "\u7259\u72fc -\u7d05\u84ee\u30ce\u6708-",
+		"name_cn": "\u7259\u72fc \u7ea2\u83b2\u4e4b\u6708",
+		"summary": "",
+		"eps": 0,
+		"air_date": "2015-10-09",
+		"air_weekday": 5,
+		"images": {
+			"large": "http:\/\/lain.bgm.tv\/pic\/cover\/l\/66\/84\/141078_EtWBh.jpg",
+			"common": "http:\/\/lain.bgm.tv\/pic\/cover\/c\/66\/84\/141078_EtWBh.jpg",
+			"medium": "http:\/\/lain.bgm.tv\/pic\/cover\/m\/66\/84\/141078_EtWBh.jpg",
+			"small": "http:\/\/lain.bgm.tv\/pic\/cover\/s\/66\/84\/141078_EtWBh.jpg",
+			"grid": "http:\/\/lain.bgm.tv\/pic\/cover\/g\/66\/84\/141078_EtWBh.jpg"
+		},
+		"collection": {
+			"wish": 0,
+			"collect": 0,
+			"doing": 132,
+			"on_hold": 0,
+			"dropped": 0
+		}
+	}, {
+		"id": 145457,
+		"url": "http:\/\/bgm.tv\/subject\/145457",
+		"type": 0,
+		"name": "\u77f3\u818f\u30dc\u30fc\u30a4\u30ba",
+		"name_cn": "\u77f3\u818f\u7537\u5b69",
+		"summary": "",
+		"eps": 0,
+		"air_date": "2016-01-08",
+		"air_weekday": 5,
+		"images": {
+			"large": "http:\/\/lain.bgm.tv\/pic\/cover\/l\/7a\/08\/145457_s66cb.jpg",
+			"common": "http:\/\/lain.bgm.tv\/pic\/cover\/c\/7a\/08\/145457_s66cb.jpg",
+			"medium": "http:\/\/lain.bgm.tv\/pic\/cover\/m\/7a\/08\/145457_s66cb.jpg",
+			"small": "http:\/\/lain.bgm.tv\/pic\/cover\/s\/7a\/08\/145457_s66cb.jpg",
+			"grid": "http:\/\/lain.bgm.tv\/pic\/cover\/g\/7a\/08\/145457_s66cb.jpg"
+		},
+		"collection": {
+			"wish": 0,
+			"collect": 0,
+			"doing": 752,
+			"on_hold": 0,
+			"dropped": 0
+		}
+	}, {
+		"id": 146093,
+		"url": "http:\/\/bgm.tv\/subject\/146093",
+		"type": 0,
+		"name": "\u4e9c\u4eba",
+		"name_cn": "\u4e9a\u4eba",
+		"summary": "",
+		"eps": 0,
+		"air_date": "2016-01-15",
+		"air_weekday": 5,
+		"images": {
+			"large": "http:\/\/lain.bgm.tv\/pic\/cover\/l\/0b\/17\/146093_LATHF.jpg",
+			"common": "http:\/\/lain.bgm.tv\/pic\/cover\/c\/0b\/17\/146093_LATHF.jpg",
+			"medium": "http:\/\/lain.bgm.tv\/pic\/cover\/m\/0b\/17\/146093_LATHF.jpg",
+			"small": "http:\/\/lain.bgm.tv\/pic\/cover\/s\/0b\/17\/146093_LATHF.jpg",
+			"grid": "http:\/\/lain.bgm.tv\/pic\/cover\/g\/0b\/17\/146093_LATHF.jpg"
+		},
+		"collection": {
+			"wish": 0,
+			"collect": 0,
+			"doing": 1007,
+			"on_hold": 0,
+			"dropped": 0
+		}
+	}, {
+		"id": 146861,
+		"url": "http:\/\/bgm.tv\/subject\/146861",
+		"type": 0,
+		"name": "\u970a\u5263\u5c71 \u661f\u5c51\u305f\u3061\u306e\u5bb4",
+		"name_cn": "\u4ece\u524d\u6709\u5ea7\u7075\u5251\u5c71",
+		"summary": "",
+		"eps": 0,
+		"air_date": "2016-01-08",
+		"air_weekday": 5,
+		"images": {
+			"large": "http:\/\/lain.bgm.tv\/pic\/cover\/l\/67\/4f\/146861_OWDcO.jpg",
+			"common": "http:\/\/lain.bgm.tv\/pic\/cover\/c\/67\/4f\/146861_OWDcO.jpg",
+			"medium": "http:\/\/lain.bgm.tv\/pic\/cover\/m\/67\/4f\/146861_OWDcO.jpg",
+			"small": "http:\/\/lain.bgm.tv\/pic\/cover\/s\/67\/4f\/146861_OWDcO.jpg",
+			"grid": "http:\/\/lain.bgm.tv\/pic\/cover\/g\/67\/4f\/146861_OWDcO.jpg"
+		},
+		"collection": {
+			"wish": 0,
+			"collect": 0,
+			"doing": 203,
+			"on_hold": 0,
+			"dropped": 0
+		}
+	}, {
+		"id": 147036,
+		"url": "http:\/\/bgm.tv\/subject\/147036",
+		"type": 0,
+		"name": "GATE \u81ea\u885b\u968a \u5f7c\u306e\u5730\u306b\u3066\u3001\u65af\u304f\u6226\u3048\u308a \u708e\u9f8d\u7de8",
+		"name_cn": "GATE \u5947\u5e7b\u81ea\u536b\u961f \u708e\u9f99\u7bc7",
+		"summary": "",
+		"eps": 0,
+		"air_date": "2016-01-08",
+		"air_weekday": 5,
+		"images": {
+			"large": "http:\/\/lain.bgm.tv\/pic\/cover\/l\/53\/c7\/147036_37D0P.jpg",
+			"common": "http:\/\/lain.bgm.tv\/pic\/cover\/c\/53\/c7\/147036_37D0P.jpg",
+			"medium": "http:\/\/lain.bgm.tv\/pic\/cover\/m\/53\/c7\/147036_37D0P.jpg",
+			"small": "http:\/\/lain.bgm.tv\/pic\/cover\/s\/53\/c7\/147036_37D0P.jpg",
+			"grid": "http:\/\/lain.bgm.tv\/pic\/cover\/g\/53\/c7\/147036_37D0P.jpg"
+		},
+		"collection": {
+			"wish": 0,
+			"collect": 0,
+			"doing": 563,
+			"on_hold": 0,
+			"dropped": 0
+		}
+	}, {
+		"id": 153140,
+		"url": "http:\/\/bgm.tv\/subject\/153140",
+		"type": 0,
+		"name": "\u304a\u3057\u3048\u3066! \u30ae\u30e3\u30eb\u5b50\u3061\u3083\u3093",
+		"name_cn": "\u544a\u8bc9\u6211\uff01\u8fa3\u59b9\u5b50\u9171",
+		"summary": "",
+		"eps": 0,
+		"air_date": "2016-01-08",
+		"air_weekday": 5,
+		"images": {
+			"large": "http:\/\/lain.bgm.tv\/pic\/cover\/l\/85\/40\/153140_MFeS7.jpg",
+			"common": "http:\/\/lain.bgm.tv\/pic\/cover\/c\/85\/40\/153140_MFeS7.jpg",
+			"medium": "http:\/\/lain.bgm.tv\/pic\/cover\/m\/85\/40\/153140_MFeS7.jpg",
+			"small": "http:\/\/lain.bgm.tv\/pic\/cover\/s\/85\/40\/153140_MFeS7.jpg",
+			"grid": "http:\/\/lain.bgm.tv\/pic\/cover\/g\/85\/40\/153140_MFeS7.jpg"
+		},
+		"collection": {
+			"wish": 0,
+			"collect": 0,
+			"doing": 549,
+			"on_hold": 0,
+			"dropped": 0
+		}
+	}, {
+		"id": 159269,
+		"url": "http:\/\/bgm.tv\/subject\/159269",
+		"type": 0,
+		"name": "\u7d05\u6bbb\u306e\u30d1\u30f3\u30c9\u30e9",
+		"name_cn": "\u7ea2\u58f3\u7684\u6f58\u591a\u62c9",
+		"summary": "",
+		"eps": 0,
+		"air_date": "2016-01-08",
+		"air_weekday": 5,
+		"images": {
+			"large": "http:\/\/lain.bgm.tv\/pic\/cover\/l\/3f\/00\/159269_Zc2yY.jpg",
+			"common": "http:\/\/lain.bgm.tv\/pic\/cover\/c\/3f\/00\/159269_Zc2yY.jpg",
+			"medium": "http:\/\/lain.bgm.tv\/pic\/cover\/m\/3f\/00\/159269_Zc2yY.jpg",
+			"small": "http:\/\/lain.bgm.tv\/pic\/cover\/s\/3f\/00\/159269_Zc2yY.jpg",
+			"grid": "http:\/\/lain.bgm.tv\/pic\/cover\/g\/3f\/00\/159269_Zc2yY.jpg"
+		},
+		"collection": {
+			"wish": 0,
+			"collect": 0,
+			"doing": 644,
+			"on_hold": 0,
+			"dropped": 0
+		}
+	}, {
+		"id": 160210,
+		"url": "http:\/\/bgm.tv\/subject\/160210",
+		"type": 0,
+		"name": "\u65c5\u8857\u30ec\u30a4\u30c8\u30b7\u30e7\u30fc",
+		"name_cn": "\u65c5\u8857\u665a\u95f4\u79c0",
+		"summary": "",
+		"eps": 0,
+		"air_date": "2016-01-08",
+		"air_weekday": 5,
+		"images": {
+			"large": "http:\/\/lain.bgm.tv\/pic\/cover\/l\/60\/78\/160210_6qT66.jpg",
+			"common": "http:\/\/lain.bgm.tv\/pic\/cover\/c\/60\/78\/160210_6qT66.jpg",
+			"medium": "http:\/\/lain.bgm.tv\/pic\/cover\/m\/60\/78\/160210_6qT66.jpg",
+			"small": "http:\/\/lain.bgm.tv\/pic\/cover\/s\/60\/78\/160210_6qT66.jpg",
+			"grid": "http:\/\/lain.bgm.tv\/pic\/cover\/g\/60\/78\/160210_6qT66.jpg"
+		},
+		"collection": {
+			"wish": 0,
+			"collect": 0,
+			"doing": 49,
+			"on_hold": 0,
+			"dropped": 0
+		}
+	}, {
+		"id": 160328,
+		"url": "http:\/\/bgm.tv\/subject\/160328",
+		"type": 0,
+		"name": "\u82f1\u56fd\u4e00\u5bb6\u3001\u6b63\u6708\u3092\u98df\u3079\u308b",
+		"name_cn": "\u82f1\u56fd\u4e00\u5bb6\uff0c\u5403\u5728\u6b63\u6708",
+		"summary": "",
+		"eps": 0,
+		"air_date": "2016-01-01",
+		"air_weekday": 5,
+		"images": {
+			"large": "http:\/\/lain.bgm.tv\/pic\/cover\/l\/17\/ec\/160328_3qnbe.jpg",
+			"common": "http:\/\/lain.bgm.tv\/pic\/cover\/c\/17\/ec\/160328_3qnbe.jpg",
+			"medium": "http:\/\/lain.bgm.tv\/pic\/cover\/m\/17\/ec\/160328_3qnbe.jpg",
+			"small": "http:\/\/lain.bgm.tv\/pic\/cover\/s\/17\/ec\/160328_3qnbe.jpg",
+			"grid": "http:\/\/lain.bgm.tv\/pic\/cover\/g\/17\/ec\/160328_3qnbe.jpg"
+		},
+		"collection": {
+			"wish": 0,
+			"collect": 0,
+			"doing": 6,
+			"on_hold": 0,
+			"dropped": 0
+		}
+	}, {
+		"id": 160674,
+		"url": "http:\/\/bgm.tv\/subject\/160674",
+		"type": 0,
+		"name": "\u30eb\u30d1\u30f3\u4e09\u4e16 \u30a4\u30bf\u30ea\u30a2\u30f3\u30fb\u30b2\u30fc\u30e0",
+		"name_cn": "\u9c81\u90a6\u4e09\u4e16 \u610f\u5927\u5229\u6e38\u620f",
+		"summary": "",
+		"eps": 0,
+		"air_date": "2016-01-08",
+		"air_weekday": 5,
+		"images": {
+			"large": "http:\/\/lain.bgm.tv\/pic\/cover\/l\/21\/b9\/160674_7L0y0.jpg",
+			"common": "http:\/\/lain.bgm.tv\/pic\/cover\/c\/21\/b9\/160674_7L0y0.jpg",
+			"medium": "http:\/\/lain.bgm.tv\/pic\/cover\/m\/21\/b9\/160674_7L0y0.jpg",
+			"small": "http:\/\/lain.bgm.tv\/pic\/cover\/s\/21\/b9\/160674_7L0y0.jpg",
+			"grid": "http:\/\/lain.bgm.tv\/pic\/cover\/g\/21\/b9\/160674_7L0y0.jpg"
+		},
+		"collection": {
+			"wish": 0,
+			"collect": 0,
+			"doing": 13,
+			"on_hold": 0,
+			"dropped": 0
+		}
+	}]
+}, {
+	"weekday": {
+		"en": "Sat",
+		"cn": "\u661f\u671f\u516d",
+		"ja": "\u571f\u8000\u65e5",
+		"id": 6
+	},
+	"items": [{
+		"id": 899,
+		"url": "http:\/\/bgm.tv\/subject\/899",
+		"type": 0,
+		"name": "\u540d\u63a2\u5075\u30b3\u30ca\u30f3",
+		"name_cn": "\u540d\u4fa6\u63a2\u67ef\u5357",
+		"summary": "",
+		"eps": 0,
+		"air_date": "1996-01-08",
+		"air_weekday": 6,
+		"images": {
+			"large": "http:\/\/lain.bgm.tv\/pic\/cover\/l\/01\/88\/899_Q3F3X.jpg",
+			"common": "http:\/\/lain.bgm.tv\/pic\/cover\/c\/01\/88\/899_Q3F3X.jpg",
+			"medium": "http:\/\/lain.bgm.tv\/pic\/cover\/m\/01\/88\/899_Q3F3X.jpg",
+			"small": "http:\/\/lain.bgm.tv\/pic\/cover\/s\/01\/88\/899_Q3F3X.jpg",
+			"grid": "http:\/\/lain.bgm.tv\/pic\/cover\/g\/01\/88\/899_Q3F3X.jpg"
+		},
+		"collection": {
+			"wish": 0,
+			"collect": 0,
+			"doing": 1241,
+			"on_hold": 0,
+			"dropped": 0
+		}
+	}, {
+		"id": 114968,
+		"url": "http:\/\/bgm.tv\/subject\/114968",
+		"type": 0,
+		"name": "\u30c7\u30e5\u30e9\u30e9\u30e9!!\u00d72 \u7d50",
+		"name_cn": "\u65e0\u5934\u9a91\u58eb\u5f02\u95fb\u5f55\u00d72 \u7ed3",
+		"summary": "",
+		"eps": 0,
+		"air_date": "2016-01-09",
+		"air_weekday": 6,
+		"images": {
+			"large": "http:\/\/lain.bgm.tv\/pic\/cover\/l\/56\/4c\/114968_Cj1aA.jpg",
+			"common": "http:\/\/lain.bgm.tv\/pic\/cover\/c\/56\/4c\/114968_Cj1aA.jpg",
+			"medium": "http:\/\/lain.bgm.tv\/pic\/cover\/m\/56\/4c\/114968_Cj1aA.jpg",
+			"small": "http:\/\/lain.bgm.tv\/pic\/cover\/s\/56\/4c\/114968_Cj1aA.jpg",
+			"grid": "http:\/\/lain.bgm.tv\/pic\/cover\/g\/56\/4c\/114968_Cj1aA.jpg"
+		},
+		"collection": {
+			"wish": 0,
+			"collect": 0,
+			"doing": 742,
+			"on_hold": 0,
+			"dropped": 0
+		}
+	}, {
+		"id": 120186,
+		"url": "http:\/\/bgm.tv\/subject\/120186",
+		"type": 0,
+		"name": "\u30d7\u30ea\u30d1\u30e9 2nd season",
+		"name_cn": "\u7f8e\u5999\u5929\u5802 \u7b2c\u4e8c\u671f",
+		"summary": "",
+		"eps": 0,
+		"air_date": "2015-04-04",
+		"air_weekday": 6,
+		"images": {
+			"large": "http:\/\/lain.bgm.tv\/pic\/cover\/l\/07\/72\/120186_u0051.jpg",
+			"common": "http:\/\/lain.bgm.tv\/pic\/cover\/c\/07\/72\/120186_u0051.jpg",
+			"medium": "http:\/\/lain.bgm.tv\/pic\/cover\/m\/07\/72\/120186_u0051.jpg",
+			"small": "http:\/\/lain.bgm.tv\/pic\/cover\/s\/07\/72\/120186_u0051.jpg",
+			"grid": "http:\/\/lain.bgm.tv\/pic\/cover\/g\/07\/72\/120186_u0051.jpg"
+		},
+		"collection": {
+			"wish": 0,
+			"collect": 0,
+			"doing": 42,
+			"on_hold": 0,
+			"dropped": 0
+		}
+	}, {
+		"id": 120236,
+		"url": "http:\/\/bgm.tv\/subject\/120236",
+		"type": 0,
+		"name": "\u30cf\u30a4\u30ad\u30e5\u30fc!! \u30bb\u30ab\u30f3\u30c9\u30b7\u30fc\u30ba\u30f3",
+		"name_cn": "\u6392\u7403\u5c11\u5e74 \u7b2c\u4e8c\u5b63",
+		"summary": "",
+		"eps": 0,
+		"air_date": "2015-10-03",
+		"air_weekday": 6,
+		"images": {
+			"large": "http:\/\/lain.bgm.tv\/pic\/cover\/l\/04\/3d\/120236_AffBR.jpg",
+			"common": "http:\/\/lain.bgm.tv\/pic\/cover\/c\/04\/3d\/120236_AffBR.jpg",
+			"medium": "http:\/\/lain.bgm.tv\/pic\/cover\/m\/04\/3d\/120236_AffBR.jpg",
+			"small": "http:\/\/lain.bgm.tv\/pic\/cover\/s\/04\/3d\/120236_AffBR.jpg",
+			"grid": "http:\/\/lain.bgm.tv\/pic\/cover\/g\/04\/3d\/120236_AffBR.jpg"
+		},
+		"collection": {
+			"wish": 0,
+			"collect": 0,
+			"doing": 746,
+			"on_hold": 0,
+			"dropped": 0
+		}
+	}, {
+		"id": 131803,
+		"url": "http:\/\/bgm.tv\/subject\/131803",
+		"type": 0,
+		"name": "\u3044\u3068\u3057\u306e\u30e0\u30fc\u30b3",
+		"name_cn": "\u5bb6\u6709\u7a46\u73c2",
+		"summary": "",
+		"eps": 0,
+		"air_date": "2015-10-03",
+		"air_weekday": 6,
+		"images": {
+			"large": "http:\/\/lain.bgm.tv\/pic\/cover\/l\/84\/ff\/131803_NuSAB.jpg",
+			"common": "http:\/\/lain.bgm.tv\/pic\/cover\/c\/84\/ff\/131803_NuSAB.jpg",
+			"medium": "http:\/\/lain.bgm.tv\/pic\/cover\/m\/84\/ff\/131803_NuSAB.jpg",
+			"small": "http:\/\/lain.bgm.tv\/pic\/cover\/s\/84\/ff\/131803_NuSAB.jpg",
+			"grid": "http:\/\/lain.bgm.tv\/pic\/cover\/g\/84\/ff\/131803_NuSAB.jpg"
+		},
+		"collection": {
+			"wish": 0,
+			"collect": 0,
+			"doing": 120,
+			"on_hold": 0,
+			"dropped": 0
+		}
+	}, {
+		"id": 136336,
+		"url": "http:\/\/bgm.tv\/subject\/136336",
+		"type": 0,
+		"name": "\u3046\u305f\u308f\u308c\u308b\u3082\u306e \u507d\u308a\u306e\u4eee\u9762",
+		"name_cn": "\u4f20\u9882\u4e4b\u7269 \u865a\u4f2a\u7684\u5047\u9762",
+		"summary": "",
+		"eps": 0,
+		"air_date": "2015-10-03",
+		"air_weekday": 6,
+		"images": {
+			"large": "http:\/\/lain.bgm.tv\/pic\/cover\/l\/2a\/44\/136336_maCsq.jpg",
+			"common": "http:\/\/lain.bgm.tv\/pic\/cover\/c\/2a\/44\/136336_maCsq.jpg",
+			"medium": "http:\/\/lain.bgm.tv\/pic\/cover\/m\/2a\/44\/136336_maCsq.jpg",
+			"small": "http:\/\/lain.bgm.tv\/pic\/cover\/s\/2a\/44\/136336_maCsq.jpg",
+			"grid": "http:\/\/lain.bgm.tv\/pic\/cover\/g\/2a\/44\/136336_maCsq.jpg"
+		},
+		"collection": {
+			"wish": 0,
+			"collect": 0,
+			"doing": 1029,
+			"on_hold": 0,
+			"dropped": 0
+		}
+	}, {
+		"id": 139950,
+		"url": "http:\/\/bgm.tv\/subject\/139950",
+		"type": 0,
+		"name": "\u91d1\u7530\u4e00\u5c11\u5e74\u306e\u4e8b\u4ef6\u7c3fR \u65b0\u30b7\u30ea\u30fc\u30ba",
+		"name_cn": "\u91d1\u7530\u4e00\u5c11\u5e74\u4e8b\u4ef6\u7c3fR 2\u671f",
+		"summary": "",
+		"eps": 0,
+		"air_date": "2015-10-03",
+		"air_weekday": 6,
+		"images": {
+			"large": "http:\/\/lain.bgm.tv\/pic\/cover\/l\/32\/a8\/139950_rp2fr.jpg",
+			"common": "http:\/\/lain.bgm.tv\/pic\/cover\/c\/32\/a8\/139950_rp2fr.jpg",
+			"medium": "http:\/\/lain.bgm.tv\/pic\/cover\/m\/32\/a8\/139950_rp2fr.jpg",
+			"small": "http:\/\/lain.bgm.tv\/pic\/cover\/s\/32\/a8\/139950_rp2fr.jpg",
+			"grid": "http:\/\/lain.bgm.tv\/pic\/cover\/g\/32\/a8\/139950_rp2fr.jpg"
+		},
+		"collection": {
+			"wish": 0,
+			"collect": 0,
+			"doing": 102,
+			"on_hold": 0,
+			"dropped": 0
+		}
+	}, {
+		"id": 149412,
+		"url": "http:\/\/bgm.tv\/subject\/149412",
+		"type": 0,
+		"name": "\u30ca\u30fc\u30b9\u30a6\u30a3\u30c3\u30c1\u5c0f\u9ea6\u3061\u3083\u3093R",
+		"name_cn": "\u9b54\u6cd5\u62a4\u58eb\u5c0f\u9ea6R",
+		"summary": "",
+		"eps": 0,
+		"air_date": "2016-01-09",
+		"air_weekday": 6,
+		"images": {
+			"large": "http:\/\/lain.bgm.tv\/pic\/cover\/l\/43\/e1\/149412_vMjJ2.jpg",
+			"common": "http:\/\/lain.bgm.tv\/pic\/cover\/c\/43\/e1\/149412_vMjJ2.jpg",
+			"medium": "http:\/\/lain.bgm.tv\/pic\/cover\/m\/43\/e1\/149412_vMjJ2.jpg",
+			"small": "http:\/\/lain.bgm.tv\/pic\/cover\/s\/43\/e1\/149412_vMjJ2.jpg",
+			"grid": "http:\/\/lain.bgm.tv\/pic\/cover\/g\/43\/e1\/149412_vMjJ2.jpg"
+		},
+		"collection": {
+			"wish": 0,
+			"collect": 0,
+			"doing": 146,
+			"on_hold": 0,
+			"dropped": 0
+		}
+	}, {
+		"id": 153214,
+		"url": "http:\/\/bgm.tv\/subject\/153214",
+		"type": 0,
+		"name": "\u30d6\u30d6\u30ad\u30fb\u30d6\u30e9\u30f3\u30ad",
+		"name_cn": "\u821e\u5175\u5668\u821e\u4e71\u4f0e",
+		"summary": "",
+		"eps": 0,
+		"air_date": "2016-01-09",
+		"air_weekday": 6,
+		"images": {
+			"large": "http:\/\/lain.bgm.tv\/pic\/cover\/l\/c0\/a6\/153214_mRNQm.jpg",
+			"common": "http:\/\/lain.bgm.tv\/pic\/cover\/c\/c0\/a6\/153214_mRNQm.jpg",
+			"medium": "http:\/\/lain.bgm.tv\/pic\/cover\/m\/c0\/a6\/153214_mRNQm.jpg",
+			"small": "http:\/\/lain.bgm.tv\/pic\/cover\/s\/c0\/a6\/153214_mRNQm.jpg",
+			"grid": "http:\/\/lain.bgm.tv\/pic\/cover\/g\/c0\/a6\/153214_mRNQm.jpg"
+		},
+		"collection": {
+			"wish": 0,
+			"collect": 0,
+			"doing": 461,
+			"on_hold": 0,
+			"dropped": 0
+		}
+	}, {
+		"id": 155187,
+		"url": "http:\/\/bgm.tv\/subject\/155187",
+		"type": 0,
+		"name": "\u65b0\u7ae0 FAIRY TAIL ZER\u00d8",
+		"name_cn": "\u65b0\u7ae0 \u5996\u7cbe\u7684\u5c3e\u5df4 ZER\u00d8",
+		"summary": "",
+		"eps": 0,
+		"air_date": "2016-01-09",
+		"air_weekday": 6,
+		"images": {
+			"large": "http:\/\/lain.bgm.tv\/pic\/cover\/l\/97\/ef\/155187_z7dak.jpg",
+			"common": "http:\/\/lain.bgm.tv\/pic\/cover\/c\/97\/ef\/155187_z7dak.jpg",
+			"medium": "http:\/\/lain.bgm.tv\/pic\/cover\/m\/97\/ef\/155187_z7dak.jpg",
+			"small": "http:\/\/lain.bgm.tv\/pic\/cover\/s\/97\/ef\/155187_z7dak.jpg",
+			"grid": "http:\/\/lain.bgm.tv\/pic\/cover\/g\/97\/ef\/155187_z7dak.jpg"
+		},
+		"collection": {
+			"wish": 0,
+			"collect": 0,
+			"doing": 103,
+			"on_hold": 0,
+			"dropped": 0
+		}
+	}, {
+		"id": 155281,
+		"url": "http:\/\/bgm.tv\/subject\/155281",
+		"type": 0,
+		"name": "\u30e9\u30af\u30a8\u30f3\u30ed\u30b8\u30c3\u30af",
+		"name_cn": "\u5e78\u8fd0\u903b\u8f91",
+		"summary": "",
+		"eps": 0,
+		"air_date": "2016-01-09",
+		"air_weekday": 6,
+		"images": {
+			"large": "http:\/\/lain.bgm.tv\/pic\/cover\/l\/ad\/ed\/155281_WM8j5.jpg",
+			"common": "http:\/\/lain.bgm.tv\/pic\/cover\/c\/ad\/ed\/155281_WM8j5.jpg",
+			"medium": "http:\/\/lain.bgm.tv\/pic\/cover\/m\/ad\/ed\/155281_WM8j5.jpg",
+			"small": "http:\/\/lain.bgm.tv\/pic\/cover\/s\/ad\/ed\/155281_WM8j5.jpg",
+			"grid": "http:\/\/lain.bgm.tv\/pic\/cover\/g\/ad\/ed\/155281_WM8j5.jpg"
+		},
+		"collection": {
+			"wish": 0,
+			"collect": 0,
+			"doing": 226,
+			"on_hold": 0,
+			"dropped": 0
+		}
+	}]
+}, {
+	"weekday": {
+		"en": "Sun",
+		"cn": "\u661f\u671f\u65e5",
+		"ja": "\u65e5\u8000\u65e5",
+		"id": 7
+	},
+	"items": [{
+		"id": 975,
+		"url": "http:\/\/bgm.tv\/subject\/975",
+		"type": 0,
+		"name": "ONE PIECE",
+		"name_cn": "\u6d77\u8d3c\u738b",
+		"summary": "",
+		"eps": 0,
+		"air_date": "1999-10-20",
+		"air_weekday": 7,
+		"images": {
+			"large": "http:\/\/lain.bgm.tv\/pic\/cover\/l\/92\/97\/975_GFGYI.jpg",
+			"common": "http:\/\/lain.bgm.tv\/pic\/cover\/c\/92\/97\/975_GFGYI.jpg",
+			"medium": "http:\/\/lain.bgm.tv\/pic\/cover\/m\/92\/97\/975_GFGYI.jpg",
+			"small": "http:\/\/lain.bgm.tv\/pic\/cover\/s\/92\/97\/975_GFGYI.jpg",
+			"grid": "http:\/\/lain.bgm.tv\/pic\/cover\/g\/92\/97\/975_GFGYI.jpg"
+		},
+		"collection": {
+			"wish": 0,
+			"collect": 0,
+			"doing": 3028,
+			"on_hold": 0,
+			"dropped": 0
+		}
+	}, {
+		"id": 92161,
+		"url": "http:\/\/bgm.tv\/subject\/92161",
+		"type": 0,
+		"name": "\u904a\u2606\u622f\u2606\u738bARC-V",
+		"name_cn": "\u6e38\u620f\u738bARC-V",
+		"summary": "",
+		"eps": 0,
+		"air_date": "2014-04-06",
+		"air_weekday": 7,
+		"images": {
+			"large": "http:\/\/lain.bgm.tv\/pic\/cover\/l\/c1\/75\/92161_R2GYo.jpg",
+			"common": "http:\/\/lain.bgm.tv\/pic\/cover\/c\/c1\/75\/92161_R2GYo.jpg",
+			"medium": "http:\/\/lain.bgm.tv\/pic\/cover\/m\/c1\/75\/92161_R2GYo.jpg",
+			"small": "http:\/\/lain.bgm.tv\/pic\/cover\/s\/c1\/75\/92161_R2GYo.jpg",
+			"grid": "http:\/\/lain.bgm.tv\/pic\/cover\/g\/c1\/75\/92161_R2GYo.jpg"
+		},
+		"collection": {
+			"wish": 0,
+			"collect": 0,
+			"doing": 354,
+			"on_hold": 0,
+			"dropped": 0
+		}
+	}, {
+		"id": 104906,
+		"url": "http:\/\/bgm.tv\/subject\/104906",
+		"type": 0,
+		"name": "\u30ef\u30fc\u30eb\u30c9\u30c8\u30ea\u30ac\u30fc",
+		"name_cn": "\u5883\u754c\u89e6\u53d1\u8005",
+		"summary": "",
+		"eps": 0,
+		"air_date": "2014-10-05",
+		"air_weekday": 7,
+		"images": {
+			"large": "http:\/\/lain.bgm.tv\/pic\/cover\/l\/a4\/d7\/104906_2noZn.jpg",
+			"common": "http:\/\/lain.bgm.tv\/pic\/cover\/c\/a4\/d7\/104906_2noZn.jpg",
+			"medium": "http:\/\/lain.bgm.tv\/pic\/cover\/m\/a4\/d7\/104906_2noZn.jpg",
+			"small": "http:\/\/lain.bgm.tv\/pic\/cover\/s\/a4\/d7\/104906_2noZn.jpg",
+			"grid": "http:\/\/lain.bgm.tv\/pic\/cover\/g\/a4\/d7\/104906_2noZn.jpg"
+		},
+		"collection": {
+			"wish": 0,
+			"collect": 0,
+			"doing": 279,
+			"on_hold": 0,
+			"dropped": 0
+		}
+	}, {
+		"id": 132220,
+		"url": "http:\/\/bgm.tv\/subject\/132220",
+		"type": 0,
+		"name": "\u30c9\u30e9\u30b4\u30f3\u30dc\u30fc\u30eb\u8d85",
+		"name_cn": "\u9f99\u73e0 \u8d85",
+		"summary": "",
+		"eps": 0,
+		"air_date": "2015-07-05",
+		"air_weekday": 7,
+		"images": {
+			"large": "http:\/\/lain.bgm.tv\/pic\/cover\/l\/0d\/a2\/132220_E3vck.jpg",
+			"common": "http:\/\/lain.bgm.tv\/pic\/cover\/c\/0d\/a2\/132220_E3vck.jpg",
+			"medium": "http:\/\/lain.bgm.tv\/pic\/cover\/m\/0d\/a2\/132220_E3vck.jpg",
+			"small": "http:\/\/lain.bgm.tv\/pic\/cover\/s\/0d\/a2\/132220_E3vck.jpg",
+			"grid": "http:\/\/lain.bgm.tv\/pic\/cover\/g\/0d\/a2\/132220_E3vck.jpg"
+		},
+		"collection": {
+			"wish": 0,
+			"collect": 0,
+			"doing": 170,
+			"on_hold": 0,
+			"dropped": 0
+		}
+	}, {
+		"id": 134390,
+		"url": "http:\/\/bgm.tv\/subject\/134390",
+		"type": 0,
+		"name": "\u30b7\u30e5\u30f4\u30a1\u30eb\u30c4\u30a7\u30b9 \u30de\u30fc\u30b1\u30f3",
+		"name_cn": "\u9ed1\u4e4b\u5ba3\u544a",
+		"summary": "",
+		"eps": 0,
+		"air_date": "2016-01-10",
+		"air_weekday": 7,
+		"images": {
+			"large": "http:\/\/lain.bgm.tv\/pic\/cover\/l\/b1\/28\/134390_nqvSA.jpg",
+			"common": "http:\/\/lain.bgm.tv\/pic\/cover\/c\/b1\/28\/134390_nqvSA.jpg",
+			"medium": "http:\/\/lain.bgm.tv\/pic\/cover\/m\/b1\/28\/134390_nqvSA.jpg",
+			"small": "http:\/\/lain.bgm.tv\/pic\/cover\/s\/b1\/28\/134390_nqvSA.jpg",
+			"grid": "http:\/\/lain.bgm.tv\/pic\/cover\/g\/b1\/28\/134390_nqvSA.jpg"
+		},
+		"collection": {
+			"wish": 0,
+			"collect": 0,
+			"doing": 462,
+			"on_hold": 0,
+			"dropped": 0
+		}
+	}, {
+		"id": 139221,
+		"url": "http:\/\/bgm.tv\/subject\/139221",
+		"type": 0,
+		"name": "Dimension W",
+		"name_cn": "Dimension W -\u7b2c\u56db\u6b21\u5143-",
+		"summary": "",
+		"eps": 0,
+		"air_date": "2016-01-10",
+		"air_weekday": 7,
+		"images": {
+			"large": "http:\/\/lain.bgm.tv\/pic\/cover\/l\/a3\/e6\/139221_bQn4U.jpg",
+			"common": "http:\/\/lain.bgm.tv\/pic\/cover\/c\/a3\/e6\/139221_bQn4U.jpg",
+			"medium": "http:\/\/lain.bgm.tv\/pic\/cover\/m\/a3\/e6\/139221_bQn4U.jpg",
+			"small": "http:\/\/lain.bgm.tv\/pic\/cover\/s\/a3\/e6\/139221_bQn4U.jpg",
+			"grid": "http:\/\/lain.bgm.tv\/pic\/cover\/g\/a3\/e6\/139221_bQn4U.jpg"
+		},
+		"collection": {
+			"wish": 0,
+			"collect": 0,
+			"doing": 877,
+			"on_hold": 0,
+			"dropped": 0
+		}
+	}, {
+		"id": 139324,
+		"url": "http:\/\/bgm.tv\/subject\/139324",
+		"type": 0,
+		"name": "\u6a5f\u52d5\u6226\u58eb\u30ac\u30f3\u30c0\u30e0 \u9244\u8840\u306e\u30aa\u30eb\u30d5\u30a7\u30f3\u30ba",
+		"name_cn": "\u673a\u52a8\u6218\u58eb\u9ad8\u8fbe \u94c1\u8840\u7684\u5b64\u513f",
+		"summary": "",
+		"eps": 0,
+		"air_date": "2015-10-04",
+		"air_weekday": 7,
+		"images": {
+			"large": "http:\/\/lain.bgm.tv\/pic\/cover\/l\/33\/2d\/139324_KE0cN.jpg",
+			"common": "http:\/\/lain.bgm.tv\/pic\/cover\/c\/33\/2d\/139324_KE0cN.jpg",
+			"medium": "http:\/\/lain.bgm.tv\/pic\/cover\/m\/33\/2d\/139324_KE0cN.jpg",
+			"small": "http:\/\/lain.bgm.tv\/pic\/cover\/s\/33\/2d\/139324_KE0cN.jpg",
+			"grid": "http:\/\/lain.bgm.tv\/pic\/cover\/g\/33\/2d\/139324_KE0cN.jpg"
+		},
+		"collection": {
+			"wish": 0,
+			"collect": 0,
+			"doing": 1118,
+			"on_hold": 0,
+			"dropped": 0
+		}
+	}, {
+		"id": 142990,
+		"url": "http:\/\/bgm.tv\/subject\/142990",
+		"type": 0,
+		"name": "\u8679\u8272\u30c7\u30a4\u30ba",
+		"name_cn": "\u8679\u8272\u65f6\u5149",
+		"summary": "",
+		"eps": 0,
+		"air_date": "2016-01-10",
+		"air_weekday": 7,
+		"images": {
+			"large": "http:\/\/lain.bgm.tv\/pic\/cover\/l\/70\/31\/142990_SM24M.jpg",
+			"common": "http:\/\/lain.bgm.tv\/pic\/cover\/c\/70\/31\/142990_SM24M.jpg",
+			"medium": "http:\/\/lain.bgm.tv\/pic\/cover\/m\/70\/31\/142990_SM24M.jpg",
+			"small": "http:\/\/lain.bgm.tv\/pic\/cover\/s\/70\/31\/142990_SM24M.jpg",
+			"grid": "http:\/\/lain.bgm.tv\/pic\/cover\/g\/70\/31\/142990_SM24M.jpg"
+		},
+		"collection": {
+			"wish": 0,
+			"collect": 0,
+			"doing": 207,
+			"on_hold": 0,
+			"dropped": 0
+		}
+	}, {
+		"id": 146404,
+		"url": "http:\/\/bgm.tv\/subject\/146404",
+		"type": 0,
+		"name": "\u30ab\u30fc\u30c9\u30d5\u30a1\u30a4\u30c8!! \u30f4\u30a1\u30f3\u30ac\u30fc\u30c9G \u30ae\u30a2\u30fc\u30b9\u30af\u30e9\u30a4\u30b7\u30b9\u7de8",
+		"name_cn": "\u5361\u7247\u6218\u6597\u5148\u5bfc\u8005G \u9f7f\u8f6e\u5371\u673a\u7bc7",
+		"summary": "",
+		"eps": 0,
+		"air_date": "2015-10-11",
+		"air_weekday": 7,
+		"images": {
+			"large": "http:\/\/lain.bgm.tv\/pic\/cover\/l\/9b\/ea\/146404_aVrzS.jpg",
+			"common": "http:\/\/lain.bgm.tv\/pic\/cover\/c\/9b\/ea\/146404_aVrzS.jpg",
+			"medium": "http:\/\/lain.bgm.tv\/pic\/cover\/m\/9b\/ea\/146404_aVrzS.jpg",
+			"small": "http:\/\/lain.bgm.tv\/pic\/cover\/s\/9b\/ea\/146404_aVrzS.jpg",
+			"grid": "http:\/\/lain.bgm.tv\/pic\/cover\/g\/9b\/ea\/146404_aVrzS.jpg"
+		},
+		"collection": {
+			"wish": 0,
+			"collect": 0,
+			"doing": 9,
+			"on_hold": 0,
+			"dropped": 0
+		}
+	}, {
+		"id": 146611,
+		"url": "http:\/\/bgm.tv\/subject\/146611",
+		"type": 0,
+		"name": "\u5927\u5bb6\u3055\u3093\u306f\u601d\u6625\u671f!",
+		"name_cn": "\u623f\u4e1c\u59b9\u5b50\u9752\u6625\u671f",
+		"summary": "",
+		"eps": 0,
+		"air_date": "2016-01-10",
+		"air_weekday": 7,
+		"images": {
+			"large": "http:\/\/lain.bgm.tv\/pic\/cover\/l\/cf\/0e\/146611_H3rUX.jpg",
+			"common": "http:\/\/lain.bgm.tv\/pic\/cover\/c\/cf\/0e\/146611_H3rUX.jpg",
+			"medium": "http:\/\/lain.bgm.tv\/pic\/cover\/m\/cf\/0e\/146611_H3rUX.jpg",
+			"small": "http:\/\/lain.bgm.tv\/pic\/cover\/s\/cf\/0e\/146611_H3rUX.jpg",
+			"grid": "http:\/\/lain.bgm.tv\/pic\/cover\/g\/cf\/0e\/146611_H3rUX.jpg"
+		},
+		"collection": {
+			"wish": 0,
+			"collect": 0,
+			"doing": 578,
+			"on_hold": 0,
+			"dropped": 0
+		}
+	}, {
+		"id": 148241,
+		"url": "http:\/\/bgm.tv\/subject\/148241",
+		"type": 0,
+		"name": "\u9b54\u6cd5\u5c11\u5973\u306a\u3093\u3066\u3082\u3046\u3044\u3044\u3067\u3059\u304b\u3089\u3002",
+		"name_cn": "\u9b54\u6cd5\u5c11\u5973\u4ec0\u4e48\u7684\u5df2\u7ecf\u591f\u4e86\u5566\u3002",
+		"summary": "",
+		"eps": 0,
+		"air_date": "2016-01-11",
+		"air_weekday": 7,
+		"images": {
+			"large": "http:\/\/lain.bgm.tv\/pic\/cover\/l\/9f\/e8\/148241_CiEEa.jpg",
+			"common": "http:\/\/lain.bgm.tv\/pic\/cover\/c\/9f\/e8\/148241_CiEEa.jpg",
+			"medium": "http:\/\/lain.bgm.tv\/pic\/cover\/m\/9f\/e8\/148241_CiEEa.jpg",
+			"small": "http:\/\/lain.bgm.tv\/pic\/cover\/s\/9f\/e8\/148241_CiEEa.jpg",
+			"grid": "http:\/\/lain.bgm.tv\/pic\/cover\/g\/9f\/e8\/148241_CiEEa.jpg"
+		},
+		"collection": {
+			"wish": 0,
+			"collect": 0,
+			"doing": 404,
+			"on_hold": 0,
+			"dropped": 0
+		}
+	}, {
+		"id": 148726,
+		"url": "http:\/\/bgm.tv\/subject\/148726",
+		"type": 0,
+		"name": "\u7070\u3068\u5e7b\u60f3\u306e\u30b0\u30ea\u30e0\u30ac\u30eb",
+		"name_cn": "\u7070\u4e0e\u5e7b\u60f3\u7684\u683c\u6797\u59c6\u8fe6\u5c14",
+		"summary": "",
+		"eps": 0,
+		"air_date": "2016-01-10",
+		"air_weekday": 7,
+		"images": {
+			"large": "http:\/\/lain.bgm.tv\/pic\/cover\/l\/0c\/20\/148726_yerWn.jpg",
+			"common": "http:\/\/lain.bgm.tv\/pic\/cover\/c\/0c\/20\/148726_yerWn.jpg",
+			"medium": "http:\/\/lain.bgm.tv\/pic\/cover\/m\/0c\/20\/148726_yerWn.jpg",
+			"small": "http:\/\/lain.bgm.tv\/pic\/cover\/s\/0c\/20\/148726_yerWn.jpg",
+			"grid": "http:\/\/lain.bgm.tv\/pic\/cover\/g\/0c\/20\/148726_yerWn.jpg"
+		},
+		"collection": {
+			"wish": 0,
+			"collect": 0,
+			"doing": 908,
+			"on_hold": 0,
+			"dropped": 0
+		}
+	}, {
+		"id": 152567,
+		"url": "http:\/\/bgm.tv\/subject\/152567",
+		"type": 0,
+		"name": "\u95c7\u829d\u5c45 3\u671f",
+		"name_cn": "\u6697\u829d\u5c45 \u7b2c\u4e09\u5b63",
+		"summary": "",
+		"eps": 0,
+		"air_date": "2016-01-10",
+		"air_weekday": 7,
+		"images": {
+			"large": "http:\/\/lain.bgm.tv\/pic\/cover\/l\/82\/81\/152567_rfvtO.jpg",
+			"common": "http:\/\/lain.bgm.tv\/pic\/cover\/c\/82\/81\/152567_rfvtO.jpg",
+			"medium": "http:\/\/lain.bgm.tv\/pic\/cover\/m\/82\/81\/152567_rfvtO.jpg",
+			"small": "http:\/\/lain.bgm.tv\/pic\/cover\/s\/82\/81\/152567_rfvtO.jpg",
+			"grid": "http:\/\/lain.bgm.tv\/pic\/cover\/g\/82\/81\/152567_rfvtO.jpg"
+		},
+		"collection": {
+			"wish": 0,
+			"collect": 0,
+			"doing": 172,
+			"on_hold": 0,
+			"dropped": 0
+		}
+	}]
+}]
