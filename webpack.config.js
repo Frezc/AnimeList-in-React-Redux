@@ -21,6 +21,9 @@ module.exports = {
 			test: /\.js?/,
 			include: APP_DIR,
 			loader: 'babel'
+		},{
+			test: /\.json$/,
+			loader: 'json-loader'
 		}]
 	}
 }

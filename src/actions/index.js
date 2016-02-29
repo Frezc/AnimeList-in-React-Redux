@@ -1,8 +1,11 @@
 import fetch from 'isomorphic-fetch';
 import {
-	FETCH_ANIMELIST, STATUS_SUCCESS, STATUS_ERROR, SET_ANIME_STATUS, SHOW_SELECTOR
+	FETCH_ANIMELIST, STATUS_SUCCESS, STATUS_ERROR, SET_ANIME_STATUS, SHOW_SELECTOR, SET_STATUS_FILTER
 }
 from './actionTypes';
+
+//test
+import data from '../../showData';
 
 const BGMCALENDAR_URL = 'http://api.frezc.com/fetchAnimelist';
 
@@ -31,10 +34,15 @@ export function fetchAnimelist() {
 	return (dispatch, getState) => {
 		dispatch(requestAnimelist());
 
+		/*
 		return fetch(BGMCALENDAR_URL)
 			.then(response => response.json())
 			.then(json => dispatch(receiveAnimelist(json)))
 			.catch(error => dispatch(errorAnimelist(error)))
+		*/
+
+		//Local data
+		dispatch(receiveAnimelist(data));
 	}
 }
 
@@ -65,5 +73,12 @@ export function showSelectors(show) {
 	return {
 		type: SHOW_SELECTOR,
 		show: show
+	}
+}
+
+export function setStatusFilter (status) {
+	return {
+		type: SET_STATUS_FILTER,
+		status: status
 	}
 }

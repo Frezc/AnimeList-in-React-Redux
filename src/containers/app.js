@@ -1,8 +1,9 @@
 import React, {PropTypes} from 'react';
 import AnimeWeekList from './AnimeWeekList';
+import StatusFilter from '../components/StatusFilter';
 import { connect } from 'react-redux';
-import { fetchAnimelist, setAnimeStatusAll, showSelectors } from '../actions';
-import { NOT_WATCHING } from '../actions/actionTypes';
+import { fetchAnimelist, setStatusFilter } from '../actions';
+import { NOT_WATCHING, WATCHING, ABANDON, ALL } from '../strings';
 
 //App Entry
 class App extends React.Component {
@@ -13,7 +14,7 @@ class App extends React.Component {
   }
 
   render () {
-  	const {dispatch, networkState, lang, animelist, showSelector, animeState} = this.props;
+  	const {dispatch, networkState, lang, animelist, statusFilter} = this.props;
 
   	if (networkState.isLoading) {
   		return (
@@ -21,13 +22,17 @@ class App extends React.Component {
   		);
   	} else if (networkState.success) {
 	    return (
-	    	<AnimeWeekList
-	    		lang={lang}
-	    		list={animelist}
-	    		dispatch={dispatch}
-	    		showSelector={showSelector}
-	    		animeState={animeState}
-	    	 />
+	    	<div>
+	    		<StatusFilter
+	    			lang={lang}
+	    			statusFilter={statusFilter}
+	    			onStatusFilterChange={status => dispatch(setStatusFilter(status))} />
+		    	<AnimeWeekList
+		    		lang={lang}
+		    		list={animelist}
+		    		dispatch={dispatch}
+		    	 />
+	    	</div>
 	    );
 	} else {
 		return (
@@ -47,12 +52,16 @@ App.propTypes = {
 	}).isRequired,
 	lang: PropTypes.oneOf(['en', 'cn', 'ja']).isRequired,
 	animelist: PropTypes.array.isRequired,
-	showSelector: PropTypes.object.isRequired,
-	animeState: PropTypes.object.isRequired
+	statusFilter: PropTypes.oneOf([NOT_WATCHING, WATCHING, ABANDON, ALL]).isRequired,
 };
 
 function select (state) {
-	return state;
+	return {
+		networkState: state.networkState,
+		lang: state.lang,
+		animelist: state.animelist,
+		statusFilter: state.statusFilter
+	};
 }
 
 export default connect(select)(App);

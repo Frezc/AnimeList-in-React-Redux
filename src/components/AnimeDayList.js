@@ -1,25 +1,45 @@
 import React, {PropTypes} from 'react';
 import AnimeItem from './AnimeItem';
-import {NOT_WATCHING} from '../actions/actionTypes';
+import { connect } from 'react-redux';
+import { NOT_WATCHING, WATCHING, ABANDON, ALL } from '../strings';
 
-export default class AnimeDayList extends React.Component {
+class AnimeDayList extends React.Component {
+
+	isShow(anime) {
+		const {statusFilter, animeState} = this.props;
+
+		if (statusFilter === ALL)
+			return true;
+
+		if (animeState[anime.id]) {
+			return animeState[anime.id] === statusFilter;
+		} else {
+			return statusFilter === NOT_WATCHING;
+		}
+	}
 
 	render() {
-		const {lang, weekday, items, animeState, showSelector} = this.props;
+		const {lang, weekday, items, animeState, showSelector, dispatch} = this.props;
 
 		return (
 			<div>
 				<div>{weekday[lang]}</div>
 				<ul>
-					{items.map(item => 
-						<AnimeItem 
-							{...item} 
-							key={item.id}
-							lang={lang}
-							img={item.images.grid}
-							status={animeState[item.id] || NOT_WATCHING}
-							doing={item.collection.doing}
-							showSelect={showSelector[item.id] || false} />
+					{items.map(item => {
+							if (this.isShow(item)) {
+								return (
+									<AnimeItem 
+										{...item} 
+										key={item.id}
+										lang={lang}
+										img={item.images.grid}
+										status={animeState[item.id] || NOT_WATCHING}
+										doing={item.collection.doing}
+										showSelect={showSelector[item.id] || false}
+										dispatch={dispatch} />
+								);
+							}
+						}
 					)}
 				</ul>
 			</div>
@@ -49,5 +69,16 @@ AnimeDayList.propTypes = {
 		}).isRequired
 	}).isRequired).isRequired,
 	animeState: PropTypes.object.isRequired,
-	showSelector: PropTypes.object.isRequired
+	showSelector: PropTypes.object.isRequired,
+	statusFilter: PropTypes.oneOf([NOT_WATCHING, WATCHING, ABANDON, ALL]).isRequired
 };
+
+function select (state) {
+	return {
+		animeState: state.animeState,
+		showSelector: state.showSelector,
+		statusFilter: state.statusFilter
+	};
+}
+
+export default connect(select)(AnimeDayList);

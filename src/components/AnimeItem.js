@@ -1,5 +1,7 @@
 import React, {PropTypes} from 'react';
-import {NOT_WATCHING, WATCHING, ABANDON} from '../actions/actionTypes';
+import {NOT_WATCHING, WATCHING, ABANDON} from '../strings';
+import { showSelector, setAnimeStatus } from '../actions';
+import { StatusText } from '../strings';
 
 export default class AnimeItem extends React.Component {
 
@@ -19,25 +21,26 @@ export default class AnimeItem extends React.Component {
 	}
 
 	renderSelector() {
-		const {showSelect, status, lang} = this.props;
+		const {showSelect, status, lang, id, dispatch} = this.props;
 
 		if (showSelect) {
 			return (
 				<span>
-					{NOT_WATCHING != status && <button>{StatusText[NOT_WATCHING][lang]}</button>}
-					{WATCHING != status && <button>{StatusText[WATCHING][lang]}</button>}
-					{ABANDON != status && <button>{StatusText[ABANDON][lang]}</button>}
+					{NOT_WATCHING != status && <button onClick={() => dispatch(setAnimeStatus(id, NOT_WATCHING))}>{StatusText[NOT_WATCHING][lang]}</button>}
+					{WATCHING != status && <button onClick={() => dispatch(setAnimeStatus(id, WATCHING))}>{StatusText[WATCHING][lang]}</button>}
+					{ABANDON != status && <button onClick={() => dispatch(setAnimeStatus(id, ABANDON))}>{StatusText[ABANDON][lang]}</button>}
 				</span>
 			);
 		}
 	}
 
 	render() {
-		const {lang, url, name, name_cn, air_date, img, doing, status} = this.props;
+		const {lang, url, name, name_cn, air_date, img, doing, status, dispatch, id} = this.props;
 		return (
-			<li onMouseEnter={() => {console.log('enter')}}
-				onMouseLeave={() => console.log('leave')}>
-				<a href={url}>{this.renderName(lang, name, name_cn)}</a>
+			<li onMouseEnter={() => dispatch(showSelector(id, true))}
+				onMouseLeave={() => dispatch(showSelector(id, false))}
+				style={styles.item}>
+				<a href={url} style={styles.title}>{this.renderName(lang, name, name_cn)}</a>
 				{' '}
 				{air_date}
 				{' '}
@@ -52,7 +55,18 @@ export default class AnimeItem extends React.Component {
 	}
 }
 
+const styles = {
+	item: {
+		minHeight: 24
+	},
+	title: {
+		textDecoration: 'none',
+		color: '#2196F3'
+	}
+};
+
 AnimeItem.propTypes = {
+	id: PropTypes.number.isRequired,
 	lang: PropTypes.oneOf(['en', 'cn', 'ja']).isRequired,
 	url: PropTypes.string,
 	name: PropTypes.string.isRequired,
@@ -61,27 +75,10 @@ AnimeItem.propTypes = {
 	img: PropTypes.string.isRequired,
 	doing: PropTypes.number.isRequired,
 	status: PropTypes.oneOf([NOT_WATCHING, WATCHING, ABANDON]).isRequired,
-	showSelect: PropTypes.bool.isRequired
+	showSelect: PropTypes.bool.isRequired,
+	dispatch: PropTypes.func.isRequired
 };
 
 AnimeItem.defaultProps = {
 	url: 'javascript:void(0);'
-};
-
-const StatusText = {
-	[NOT_WATCHING]: {
-		'en': 'not watching',
-		'cn': '未看',
-		'ja': '見てない'
-	},
-	[WATCHING]: {
-		'en': 'watching',
-		'cn': '在看',
-		'ja': '見てる'
-	},
-	[ABANDON]: {
-		'en': 'abandon',
-		'cn': '抛弃',
-		'ja': '捨てる'
-	}
 };

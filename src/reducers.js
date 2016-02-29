@@ -1,7 +1,8 @@
 import {
-	FETCH_ANIMELIST, STATUS_SUCCESS, STATUS_ERROR, SET_ANIME_STATUS, SHOW_SELECTOR
+	FETCH_ANIMELIST, STATUS_SUCCESS, STATUS_ERROR, SET_ANIME_STATUS, SHOW_SELECTOR, SET_STATUS_FILTER
 }
 from './actions/actionTypes';
+import { ALL } from './strings';
 
 /**
 	state tree
@@ -18,7 +19,8 @@ from './actions/actionTypes';
 		showSelector: {
 			117601: false,
 			...
-		}
+		},
+		statusFilter: String,
 		animelist: [...jsonData]
 	}
 **/
@@ -109,6 +111,15 @@ function showSelector(state = {}, action, animelist = []) {
 	}
 }
 
+function statusFilter (state = ALL, action) {
+	switch(action.type) {
+		case SET_STATUS_FILTER:
+			return action.status;
+		default:
+			return state;
+	}
+}
+
 function animelist(state = [], action) {
 	switch (action.type) {
 		case FETCH_ANIMELIST:
@@ -127,8 +138,9 @@ function rootReducer(state = {}, action) {
 	return {
 		lang: lang(state.lang, action),
 		networkState: networkState(state.networkState, action),
-		animeState: animeState(state.networkState, action, state.animelist),
+		animeState: animeState(state.animeState, action, state.animelist),
 		showSelector: showSelector(state.showSelector, action, state.animelist),
+		statusFilter: statusFilter(state.statusFilter, action),
 		animelist: animelist(state.animelist, action)
 	}
 }

@@ -4,7 +4,7 @@ import AnimeDayList from '../components/AnimeDayList';
 export default class AnimeWeekList extends React.Component {
 
 	render() {
-		const {lang, list, showSelector, animeState} = this.props;
+		const {lang, list} = this.props;
 
 		return (
 			<div>
@@ -13,9 +13,7 @@ export default class AnimeWeekList extends React.Component {
 						key={obj.weekday.id}
 						lang={lang}
 						weekday={obj.weekday}
-						items={obj.items}
-						showSelector={showSelector}
-	    				animeState={animeState} />
+						items={obj.items} />
 				)}
 			</div>
 		);
@@ -29,7 +27,5 @@ AnimeWeekList.propTypes = {
 			id: PropTypes.number.isRequired
 		}).isRequired,
 		items: PropTypes.array.isRequired
-	})).isRequired,
-	animeState: PropTypes.object.isRequired,
-	showSelector: PropTypes.object.isRequired
+	})).isRequired
 };
