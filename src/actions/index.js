@@ -34,6 +34,7 @@ export function fetchAnimelist() {
 	return (dispatch, getState) => {
 		dispatch(requestAnimelist());
 
+		//Network fetch data
 		/*
 		return fetch(BGMCALENDAR_URL)
 			.then(response => response.json())
