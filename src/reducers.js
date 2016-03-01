@@ -1,8 +1,11 @@
 import {
-	FETCH_ANIMELIST, STATUS_SUCCESS, STATUS_ERROR, SET_ANIME_STATUS, SHOW_SELECTOR, SET_STATUS_FILTER
+	FETCH_ANIMELIST, STATUS_SUCCESS, STATUS_ERROR, SET_ANIME_STATUS, SHOW_SELECTOR, SET_STATUS_FILTER, SET_LANGUAGE
 }
 from './actions/actionTypes';
-import { ALL } from './strings';
+import {
+	ALL
+}
+from './strings';
 
 /**
 	state tree
@@ -27,7 +30,10 @@ import { ALL } from './strings';
 
 function lang(state = 'cn', action) {
 	switch (action.type) {
-		default: return state;
+		case SET_LANGUAGE:
+			return action.lang;
+		default:
+			return state;
 	}
 }
 
@@ -111,8 +117,8 @@ function showSelector(state = {}, action, animelist = []) {
 	}
 }
 
-function statusFilter (state = ALL, action) {
-	switch(action.type) {
+function statusFilter(state = ALL, action) {
+	switch (action.type) {
 		case SET_STATUS_FILTER:
 			return action.status;
 		default:

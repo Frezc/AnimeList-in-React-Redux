@@ -30,13 +30,13 @@ export default class StatusFilter extends React.Component {
 
 	render() {
 		return (
-			<p>
+			<span>
 				Show:{' '}
 				{this.renderFilter(ALL)}{' '}
 				{this.renderFilter(NOT_WATCHING)}{' '}
 				{this.renderFilter(WATCHING)}{' '}
 				{this.renderFilter(ABANDON)}
-			</p>
+			</span>
 		);
 	}
 }

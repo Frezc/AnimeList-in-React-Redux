@@ -1,8 +1,9 @@
 import React, {PropTypes} from 'react';
 import AnimeWeekList from './AnimeWeekList';
 import StatusFilter from '../components/StatusFilter';
+import LangSelector from '../components/LangSelector';
 import { connect } from 'react-redux';
-import { fetchAnimelist, setStatusFilter } from '../actions';
+import { fetchAnimelist, setStatusFilter, setLanguage } from '../actions';
 import { NOT_WATCHING, WATCHING, ABANDON, ALL } from '../strings';
 
 //App Entry
@@ -27,6 +28,10 @@ class App extends React.Component {
 	    			lang={lang}
 	    			statusFilter={statusFilter}
 	    			onStatusFilterChange={status => dispatch(setStatusFilter(status))} />
+	    		<LangSelector 
+	    			style={styles.langSelector}
+	    			lang={lang}
+	    			onLangChange={lang => dispatch(setLanguage(lang))} />
 		    	<AnimeWeekList
 		    		lang={lang}
 		    		list={animelist}
@@ -43,6 +48,12 @@ class App extends React.Component {
 		);
 	}
   }
+}
+
+const styles = {
+	langSelector: {
+		marginLeft: 16
+	}
 }
 
 App.propTypes = {

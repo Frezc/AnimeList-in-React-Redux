@@ -1,6 +1,6 @@
 import fetch from 'isomorphic-fetch';
 import {
-	FETCH_ANIMELIST, STATUS_SUCCESS, STATUS_ERROR, SET_ANIME_STATUS, SHOW_SELECTOR, SET_STATUS_FILTER
+	FETCH_ANIMELIST, STATUS_SUCCESS, STATUS_ERROR, SET_ANIME_STATUS, SHOW_SELECTOR, SET_STATUS_FILTER, SET_LANGUAGE
 }
 from './actionTypes';
 
@@ -80,5 +80,12 @@ export function setStatusFilter (status) {
 	return {
 		type: SET_STATUS_FILTER,
 		status: status
+	}
+}
+
+export function setLanguage (lang) {
+	return {
+		type: SET_LANGUAGE,
+		lang: lang
 	}
 }
