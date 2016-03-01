@@ -25,5 +25,13 @@ module.exports = {
 			test: /\.json$/,
 			loader: 'json-loader'
 		}]
-	}
+	},
+
+	plugins: [
+		new webpack.DefinePlugin({
+		  "process.env": {
+		    NODE_ENV: JSON.stringify("production")
+		  }
+		})
+	]
 }

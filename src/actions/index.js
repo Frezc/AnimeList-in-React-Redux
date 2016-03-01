@@ -35,15 +35,13 @@ export function fetchAnimelist() {
 		dispatch(requestAnimelist());
 
 		//Network fetch data
-		/*
 		return fetch(BGMCALENDAR_URL)
 			.then(response => response.json())
 			.then(json => dispatch(receiveAnimelist(json)))
 			.catch(error => dispatch(errorAnimelist(error)))
-		*/
 
 		//Local data
-		dispatch(receiveAnimelist(data));
+		// dispatch(receiveAnimelist(data));
 	}
 }
 

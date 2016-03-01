@@ -8,9 +8,3 @@ react + redux 完成的一个小例子
 - [x] 每条数据标记都有隐藏的切换记录的按钮
 - [x] 筛选不同记录的数据
 - [x] 切换语言显示
-
-##Getting Started
-
-1. npm install
-2. ```npm run dev``` for watch mode. ```npm run build``` for production mode
-3. open index.html
