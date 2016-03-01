@@ -12,7 +12,6 @@ export default class StatusFilter extends React.Component {
 	renderFilter(status) {
 		const {statusFilter,onStatusFilterChange,lang} = this.props;
 
-		console.log(StatusText)
 		if (statusFilter === status) {
 			return StatusText[status][lang];
 		}
