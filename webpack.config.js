@@ -5,9 +5,13 @@ var BUILD_DIR = path.resolve(__dirname, 'build');
 var APP_DIR = path.resolve(__dirname, 'src');
 
 module.exports = {
-	entry: APP_DIR + '/index.js',
+	entry: [
+		'webpack-dev-server/client?http://0.0.0.0:8080',
+		APP_DIR + '/index.js'
+	],
 
 	output: {
+		publicPath: "http://localhost:8080/build",
 		path: BUILD_DIR,
 		filename: 'bundle.js'
 	},

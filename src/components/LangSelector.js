@@ -3,39 +3,35 @@ import React, {
 }
 from 'react';
 
-export default class LangSelector extends React.Component {
+function renderItem(langName, props) {
+	const {lang, onLangChange} = props;
 
-	renderItem(langName) {
-		const {lang, onLangChange} = this.props;
-
-		if (langName === lang) {
-			return langName;
-		}
-
-		return (
-			<a href="#"
-				onClick={e => {
-					e.preventDefault();
-					onLangChange && 
-						onLangChange(langName)
-				}}>{langName}</a>
-		);
+	if (langName === lang) {
+		return langName;
 	}
 
-	render() {
+	return (
+		<a href="#"
+			onClick={e => {
+				e.preventDefault();
+				onLangChange && 
+					onLangChange(langName)
+			}}>{langName}</a>
+	);
+}
 
-		return (
-			<span style={this.props.style}>
-				Lang:
-				{' '}
-				{this.renderItem('en')}
-				{' '}
-				{this.renderItem('cn')}
-				{' '}
-				{this.renderItem('ja')}
-			</span>
-		);
-	}
+function LangSelector(props) {
+	return (
+		<span style={props.style}>
+			Lang:
+			{' '}
+			{renderItem('en', props)}
+			{' '}
+			{renderItem('cn', props)}
+			{' '}
+			{renderItem('ja', props)}
+		</span>
+	);
 }
 
 LangSelector.propTypes = {
@@ -43,3 +39,5 @@ LangSelector.propTypes = {
 	onLangChange: PropTypes.func,
 	style: PropTypes.object
 };
+
+export default LangSelector;

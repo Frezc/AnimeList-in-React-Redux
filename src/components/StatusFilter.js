@@ -7,37 +7,34 @@ import {
 }
 from '../strings';
 
-export default class StatusFilter extends React.Component {
+function renderFilter(status, props) {
+	const {statusFilter,onStatusFilterChange,lang} = props;
 
-	renderFilter(status) {
-		const {statusFilter,onStatusFilterChange,lang} = this.props;
-
-		if (statusFilter === status) {
-			return StatusText[status][lang];
-		}
-
-		return (
-			<a href="#"
-				onClick={e => {
-					e.preventDefault();
-					onStatusFilterChange && 
-						onStatusFilterChange(status);
-				}}
-			>{StatusText[status][lang]}</a>
-		);
+	if (statusFilter === status) {
+		return StatusText[status][lang];
 	}
 
-	render() {
-		return (
-			<span>
-				Show:{' '}
-				{this.renderFilter(ALL)}{' '}
-				{this.renderFilter(NOT_WATCHING)}{' '}
-				{this.renderFilter(WATCHING)}{' '}
-				{this.renderFilter(ABANDON)}
-			</span>
-		);
-	}
+	return (
+		<a href="#"
+			onClick={e => {
+				e.preventDefault();
+				onStatusFilterChange && 
+					onStatusFilterChange(status);
+			}}
+		>{StatusText[status][lang]}</a>
+	);
+}
+
+function StatusFilter(props) {
+	return (
+		<span>
+			Show:{' '}
+			{renderFilter(ALL, props)}{' '}
+			{renderFilter(NOT_WATCHING, props)}{' '}
+			{renderFilter(WATCHING, props)}{' '}
+			{renderFilter(ABANDON, props)}
+		</span>
+	);
 }
 
 StatusFilter.propTypes = {
@@ -45,3 +42,5 @@ StatusFilter.propTypes = {
 	statusFilter: PropTypes.oneOf([NOT_WATCHING, WATCHING, ABANDON, ALL]).isRequired,
 	onStatusFilterChange: PropTypes.func
 };
+
+export default StatusFilter;

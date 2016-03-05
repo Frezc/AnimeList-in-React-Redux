@@ -3,48 +3,45 @@ import AnimeItem from './AnimeItem';
 import { connect } from 'react-redux';
 import { NOT_WATCHING, WATCHING, ABANDON, ALL } from '../strings';
 
-class AnimeDayList extends React.Component {
+function isShow(anime, props) {
+	const {statusFilter, animeState} = props;
 
-	isShow(anime) {
-		const {statusFilter, animeState} = this.props;
+	if (statusFilter === ALL)
+		return true;
 
-		if (statusFilter === ALL)
-			return true;
-
-		if (animeState[anime.id]) {
-			return animeState[anime.id] === statusFilter;
-		} else {
-			return statusFilter === NOT_WATCHING;
-		}
+	if (animeState[anime.id]) {
+		return animeState[anime.id] === statusFilter;
+	} else {
+		return statusFilter === NOT_WATCHING;
 	}
+}
 
-	render() {
-		const {lang, weekday, items, animeState, showSelector, dispatch} = this.props;
+function AnimeDayList(props) {
+	const {lang, weekday, items, animeState, showSelector, dispatch} = props;
 
-		return (
-			<div>
-				<div>{weekday[lang]}</div>
-				<ul>
-					{items.map(item => {
-							if (this.isShow(item)) {
-								return (
-									<AnimeItem 
-										{...item} 
-										key={item.id}
-										lang={lang}
-										img={item.images.grid}
-										status={animeState[item.id] || NOT_WATCHING}
-										doing={item.collection.doing}
-										showSelect={showSelector[item.id] || false}
-										dispatch={dispatch} />
-								);
-							}
+	return (
+		<div>
+			<div>{weekday[lang]}</div>
+			<ul>
+				{items.map(item => {
+						if (isShow(item, props)) {
+							return (
+								<AnimeItem 
+									{...item} 
+									key={item.id}
+									lang={lang}
+									img={item.images.grid}
+									status={animeState[item.id] || NOT_WATCHING}
+									doing={item.collection.doing}
+									showSelect={showSelector[item.id] || false}
+									dispatch={dispatch} />
+							);
 						}
-					)}
-				</ul>
-			</div>
-		);
-	}
+					}
+				)}
+			</ul>
+		</div>
+	);
 }
 
 AnimeDayList.propTypes = {
