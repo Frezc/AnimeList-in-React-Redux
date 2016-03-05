@@ -1,24 +1,23 @@
 import React, {PropTypes} from 'react';
 import AnimeDayList from '../components/AnimeDayList';
 
-export default class AnimeWeekList extends React.Component {
+function AnimeWeekList(props) {
+	const {lang, list} = props;
 
-	render() {
-		const {lang, list} = this.props;
-
-		return (
-			<div>
-				{list.map(obj => 
-					<AnimeDayList
-						key={obj.weekday.id}
-						lang={lang}
-						weekday={obj.weekday}
-						items={obj.items} />
-				)}
-			</div>
-		);
-	}
+	return (
+		<div>
+			{list.map(obj => 
+				<AnimeDayList
+					key={obj.weekday.id}
+					lang={lang}
+					weekday={obj.weekday}
+					items={obj.items} />
+			)}
+		</div>
+	);
 }
+
+export default AnimeWeekList;
 
 AnimeWeekList.propTypes = {
 	lang: PropTypes.oneOf(['en', 'cn', 'ja']).isRequired,

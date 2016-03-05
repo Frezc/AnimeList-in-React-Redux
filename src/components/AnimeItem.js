@@ -3,56 +3,53 @@ import {NOT_WATCHING, WATCHING, ABANDON} from '../strings';
 import { showSelector, setAnimeStatus } from '../actions';
 import { StatusText } from '../strings';
 
-export default class AnimeItem extends React.Component {
+function renderName(lang, name, name_cn) {
+	let name_show = name;
 
-	renderName(lang, name, name_cn) {
-		let name_show = name;
-
-		if (name_cn) {
-			switch(lang) {
-				case 'cn':
-					name_show = name_cn;
-			}
-		}
-
-		return (
-			<span>{decodeURI(name_show)}</span>
-		);
-	}
-
-	renderSelector() {
-		const {showSelect, status, lang, id, dispatch} = this.props;
-
-		if (showSelect) {
-			return (
-				<span>
-					{NOT_WATCHING != status && <button onClick={() => dispatch(setAnimeStatus(id, NOT_WATCHING))}>{StatusText[NOT_WATCHING][lang]}</button>}
-					{WATCHING != status && <button onClick={() => dispatch(setAnimeStatus(id, WATCHING))}>{StatusText[WATCHING][lang]}</button>}
-					{ABANDON != status && <button onClick={() => dispatch(setAnimeStatus(id, ABANDON))}>{StatusText[ABANDON][lang]}</button>}
-				</span>
-			);
+	if (name_cn) {
+		switch(lang) {
+			case 'cn':
+				name_show = name_cn;
 		}
 	}
 
-	render() {
-		const {lang, url, name, name_cn, air_date, img, doing, status, dispatch, id} = this.props;
+	return (
+		<span>{decodeURI(name_show)}</span>
+	);
+}
+
+function renderSelector(props) {
+	const {showSelect, status, lang, id, dispatch} = props;
+
+	if (showSelect) {
 		return (
-			<li onMouseEnter={() => dispatch(showSelector(id, true))}
-				onMouseLeave={() => dispatch(showSelector(id, false))}
-				style={styles.item}>
-				<a href={url} style={styles.title}>{this.renderName(lang, name, name_cn)}</a>
-				{' '}
-				{air_date}
-				{' '}
-				{'Watching: '}
-				{doing}
-				{' '}
-				{StatusText[status][lang]}
-				{' '}
-				{this.renderSelector()}
-			</li>
+			<span>
+				{NOT_WATCHING != status && <button onClick={() => dispatch(setAnimeStatus(id, NOT_WATCHING))}>{StatusText[NOT_WATCHING][lang]}</button>}
+				{WATCHING != status && <button onClick={() => dispatch(setAnimeStatus(id, WATCHING))}>{StatusText[WATCHING][lang]}</button>}
+				{ABANDON != status && <button onClick={() => dispatch(setAnimeStatus(id, ABANDON))}>{StatusText[ABANDON][lang]}</button>}
+			</span>
 		);
 	}
+}
+
+function AnimeItem(props) {
+	const {lang, url, name, name_cn, air_date, img, doing, status, dispatch, id} = props;
+	return (
+		<li onMouseEnter={() => dispatch(showSelector(id, true))}
+			onMouseLeave={() => dispatch(showSelector(id, false))}
+			style={styles.item}>
+			<a href={url} style={styles.title}>{renderName(lang, name, name_cn)}</a>
+			{' '}
+			{air_date}
+			{' '}
+			{'Watching: '}
+			{doing}
+			{' '}
+			{StatusText[status][lang]}
+			{' '}
+			{renderSelector(props)}
+		</li>
+	);
 }
 
 const styles = {
@@ -82,3 +79,5 @@ AnimeItem.propTypes = {
 AnimeItem.defaultProps = {
 	url: 'javascript:void(0);'
 };
+
+export default AnimeItem;
