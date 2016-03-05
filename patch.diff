@@ -1,0 +1,461 @@
+From fe67767419c5ab909d351859154e752661955d05 Mon Sep 17 00:00:00 2001
+From: frezc <504021398@qq.com>
+Date: Sat, 5 Mar 2016 16:39:23 +0800
+Subject: [PATCH] better format
+
+---
+ package.json                    | 10 +++--
+ src/components/AnimeDayList.js  | 69 ++++++++++++++++------------------
+ src/components/AnimeItem.js     | 83 ++++++++++++++++++++---------------------
+ src/components/LangSelector.js  | 58 ++++++++++++++--------------
+ src/components/StatusFilter.js  | 57 ++++++++++++++--------------
+ src/containers/AnimeWeekList.js | 31 ++++++++-------
+ webpack.config.js               |  6 ++-
+ 7 files changed, 156 insertions(+), 158 deletions(-)
+
+diff --git a/package.json b/package.json
+index 661f61a..488033c 100644
+--- a/package.json
++++ b/package.json
+@@ -1,10 +1,11 @@
+ {
+-  "name": "react-default",
+-  "version": "1.0.0",
++  "name": "animelist-react-redux",
++  "version": "1.1.0",
+   "description": "",
+   "main": "index.js",
+   "scripts": {
+-    "dev": "webpack -d --watch",
++    "dev": "webpack-dev-server",
++    "debug": "webpack -d --watch",
+     "build": "webpack -p"
+   },
+   "author": "frezc",
+@@ -25,6 +26,7 @@
+     "babel-preset-es2015": "^6.5.0",
+     "babel-preset-react": "^6.5.0",
+     "json-loader": "^0.5.4",
+-    "webpack": "^1.12.14"
++    "webpack": "^1.12.14",
++    "webpack-dev-server": "^1.14.1"
+   }
+ }
+diff --git a/src/components/AnimeDayList.js b/src/components/AnimeDayList.js
+index e30cda5..4866b1d 100644
+--- a/src/components/AnimeDayList.js
++++ b/src/components/AnimeDayList.js
+@@ -3,48 +3,45 @@ import AnimeItem from './AnimeItem';
+ import { connect } from 'react-redux';
+ import { NOT_WATCHING, WATCHING, ABANDON, ALL } from '../strings';
+ 
+-class AnimeDayList extends React.Component {
++function isShow(anime, props) {
++	const {statusFilter, animeState} = props;
+ 
+-	isShow(anime) {
+-		const {statusFilter, animeState} = this.props;
++	if (statusFilter === ALL)
++		return true;
+ 
+-		if (statusFilter === ALL)
+-			return true;
+-
+-		if (animeState[anime.id]) {
+-			return animeState[anime.id] === statusFilter;
+-		} else {
+-			return statusFilter === NOT_WATCHING;
+-		}
++	if (animeState[anime.id]) {
++		return animeState[anime.id] === statusFilter;
++	} else {
++		return statusFilter === NOT_WATCHING;
+ 	}
++}
+ 
+-	render() {
+-		const {lang, weekday, items, animeState, showSelector, dispatch} = this.props;
++function AnimeDayList(props) {
++	const {lang, weekday, items, animeState, showSelector, dispatch} = props;
+ 
+-		return (
+-			<div>
+-				<div>{weekday[lang]}</div>
+-				<ul>
+-					{items.map(item => {
+-							if (this.isShow(item)) {
+-								return (
+-									<AnimeItem 
+-										{...item} 
+-										key={item.id}
+-										lang={lang}
+-										img={item.images.grid}
+-										status={animeState[item.id] || NOT_WATCHING}
+-										doing={item.collection.doing}
+-										showSelect={showSelector[item.id] || false}
+-										dispatch={dispatch} />
+-								);
+-							}
++	return (
++		<div>
++			<div>{weekday[lang]}</div>
++			<ul>
++				{items.map(item => {
++						if (isShow(item, props)) {
++							return (
++								<AnimeItem 
++									{...item} 
++									key={item.id}
++									lang={lang}
++									img={item.images.grid}
++									status={animeState[item.id] || NOT_WATCHING}
++									doing={item.collection.doing}
++									showSelect={showSelector[item.id] || false}
++									dispatch={dispatch} />
++							);
+ 						}
+-					)}
+-				</ul>
+-			</div>
+-		);
+-	}
++					}
++				)}
++			</ul>
++		</div>
++	);
+ }
+ 
+ AnimeDayList.propTypes = {
+diff --git a/src/components/AnimeItem.js b/src/components/AnimeItem.js
+index 37575d8..e4eef55 100644
+--- a/src/components/AnimeItem.js
++++ b/src/components/AnimeItem.js
+@@ -3,58 +3,55 @@ import {NOT_WATCHING, WATCHING, ABANDON} from '../strings';
+ import { showSelector, setAnimeStatus } from '../actions';
+ import { StatusText } from '../strings';
+ 
+-export default class AnimeItem extends React.Component {
++function renderName(lang, name, name_cn) {
++	let name_show = name;
+ 
+-	renderName(lang, name, name_cn) {
+-		let name_show = name;
+-
+-		if (name_cn) {
+-			switch(lang) {
+-				case 'cn':
+-					name_show = name_cn;
+-			}
++	if (name_cn) {
++		switch(lang) {
++			case 'cn':
++				name_show = name_cn;
+ 		}
+-
+-		return (
+-			<span>{decodeURI(name_show)}</span>
+-		);
+ 	}
+ 
+-	renderSelector() {
+-		const {showSelect, status, lang, id, dispatch} = this.props;
++	return (
++		<span>{decodeURI(name_show)}</span>
++	);
++}
+ 
+-		if (showSelect) {
+-			return (
+-				<span>
+-					{NOT_WATCHING != status && <button onClick={() => dispatch(setAnimeStatus(id, NOT_WATCHING))}>{StatusText[NOT_WATCHING][lang]}</button>}
+-					{WATCHING != status && <button onClick={() => dispatch(setAnimeStatus(id, WATCHING))}>{StatusText[WATCHING][lang]}</button>}
+-					{ABANDON != status && <button onClick={() => dispatch(setAnimeStatus(id, ABANDON))}>{StatusText[ABANDON][lang]}</button>}
+-				</span>
+-			);
+-		}
+-	}
++function renderSelector(props) {
++	const {showSelect, status, lang, id, dispatch} = props;
+ 
+-	render() {
+-		const {lang, url, name, name_cn, air_date, img, doing, status, dispatch, id} = this.props;
++	if (showSelect) {
+ 		return (
+-			<li onMouseEnter={() => dispatch(showSelector(id, true))}
+-				onMouseLeave={() => dispatch(showSelector(id, false))}
+-				style={styles.item}>
+-				<a href={url} style={styles.title}>{this.renderName(lang, name, name_cn)}</a>
+-				{' '}
+-				{air_date}
+-				{' '}
+-				{'Watching: '}
+-				{doing}
+-				{' '}
+-				{StatusText[status][lang]}
+-				{' '}
+-				{this.renderSelector()}
+-			</li>
++			<span>
++				{NOT_WATCHING != status && <button onClick={() => dispatch(setAnimeStatus(id, NOT_WATCHING))}>{StatusText[NOT_WATCHING][lang]}</button>}
++				{WATCHING != status && <button onClick={() => dispatch(setAnimeStatus(id, WATCHING))}>{StatusText[WATCHING][lang]}</button>}
++				{ABANDON != status && <button onClick={() => dispatch(setAnimeStatus(id, ABANDON))}>{StatusText[ABANDON][lang]}</button>}
++			</span>
+ 		);
+ 	}
+ }
+ 
++function AnimeItem(props) {
++	const {lang, url, name, name_cn, air_date, img, doing, status, dispatch, id} = props;
++	return (
++		<li onMouseEnter={() => dispatch(showSelector(id, true))}
++			onMouseLeave={() => dispatch(showSelector(id, false))}
++			style={styles.item}>
++			<a href={url} style={styles.title}>{renderName(lang, name, name_cn)}</a>
++			{' '}
++			{air_date}
++			{' '}
++			{'Watching: '}
++			{doing}
++			{' '}
++			{StatusText[status][lang]}
++			{' '}
++			{renderSelector(props)}
++		</li>
++	);
++}
++
+ const styles = {
+ 	item: {
+ 		minHeight: 24
+@@ -81,4 +78,6 @@ AnimeItem.propTypes = {
+ 
+ AnimeItem.defaultProps = {
+ 	url: 'javascript:void(0);'
+-};
+\ No newline at end of file
++};
++
++export default AnimeItem;
+\ No newline at end of file
+diff --git a/src/components/LangSelector.js b/src/components/LangSelector.js
+index 1195e1f..7a82e90 100644
+--- a/src/components/LangSelector.js
++++ b/src/components/LangSelector.js
+@@ -3,43 +3,41 @@ import React, {
+ }
+ from 'react';
+ 
+-export default class LangSelector extends React.Component {
++function renderItem(langName, props) {
++	const {lang, onLangChange} = props;
+ 
+-	renderItem(langName) {
+-		const {lang, onLangChange} = this.props;
+-
+-		if (langName === lang) {
+-			return langName;
+-		}
+-
+-		return (
+-			<a href="#"
+-				onClick={e => {
+-					e.preventDefault();
+-					onLangChange && 
+-						onLangChange(langName)
+-				}}>{langName}</a>
+-		);
++	if (langName === lang) {
++		return langName;
+ 	}
+ 
+-	render() {
++	return (
++		<a href="#"
++			onClick={e => {
++				e.preventDefault();
++				onLangChange && 
++					onLangChange(langName)
++			}}>{langName}</a>
++	);
++}
+ 
+-		return (
+-			<span style={this.props.style}>
+-				Lang:
+-				{' '}
+-				{this.renderItem('en')}
+-				{' '}
+-				{this.renderItem('cn')}
+-				{' '}
+-				{this.renderItem('ja')}
+-			</span>
+-		);
+-	}
++function LangSelector(props) {
++	return (
++		<span style={props.style}>
++			Lang:
++			{' '}
++			{renderItem('en', props)}
++			{' '}
++			{renderItem('cn', props)}
++			{' '}
++			{renderItem('ja', props)}
++		</span>
++	);
+ }
+ 
+ LangSelector.propTypes = {
+ 	lang: PropTypes.oneOf(['en', 'cn', 'ja']).isRequired,
+ 	onLangChange: PropTypes.func,
+ 	style: PropTypes.object
+-};
+\ No newline at end of file
++};
++
++export default LangSelector;
+\ No newline at end of file
+diff --git a/src/components/StatusFilter.js b/src/components/StatusFilter.js
+index 3de8316..56615a8 100644
+--- a/src/components/StatusFilter.js
++++ b/src/components/StatusFilter.js
+@@ -7,41 +7,40 @@ import {
+ }
+ from '../strings';
+ 
+-export default class StatusFilter extends React.Component {
++function renderFilter(status, props) {
++	const {statusFilter,onStatusFilterChange,lang} = props;
+ 
+-	renderFilter(status) {
+-		const {statusFilter,onStatusFilterChange,lang} = this.props;
+-
+-		if (statusFilter === status) {
+-			return StatusText[status][lang];
+-		}
+-
+-		return (
+-			<a href="#"
+-				onClick={e => {
+-					e.preventDefault();
+-					onStatusFilterChange && 
+-						onStatusFilterChange(status);
+-				}}
+-			>{StatusText[status][lang]}</a>
+-		);
++	if (statusFilter === status) {
++		return StatusText[status][lang];
+ 	}
+ 
+-	render() {
+-		return (
+-			<span>
+-				Show:{' '}
+-				{this.renderFilter(ALL)}{' '}
+-				{this.renderFilter(NOT_WATCHING)}{' '}
+-				{this.renderFilter(WATCHING)}{' '}
+-				{this.renderFilter(ABANDON)}
+-			</span>
+-		);
+-	}
++	return (
++		<a href="#"
++			onClick={e => {
++				e.preventDefault();
++				onStatusFilterChange && 
++					onStatusFilterChange(status);
++			}}
++		>{StatusText[status][lang]}</a>
++	);
++}
++
++function StatusFilter(props) {
++	return (
++		<span>
++			Show:{' '}
++			{renderFilter(ALL, props)}{' '}
++			{renderFilter(NOT_WATCHING, props)}{' '}
++			{renderFilter(WATCHING, props)}{' '}
++			{renderFilter(ABANDON, props)}
++		</span>
++	);
+ }
+ 
+ StatusFilter.propTypes = {
+ 	lang: PropTypes.oneOf(['en', 'cn', 'ja']).isRequired,
+ 	statusFilter: PropTypes.oneOf([NOT_WATCHING, WATCHING, ABANDON, ALL]).isRequired,
+ 	onStatusFilterChange: PropTypes.func
+-};
+\ No newline at end of file
++};
++
++export default StatusFilter;
+\ No newline at end of file
+diff --git a/src/containers/AnimeWeekList.js b/src/containers/AnimeWeekList.js
+index f76b899..28d8534 100644
+--- a/src/containers/AnimeWeekList.js
++++ b/src/containers/AnimeWeekList.js
+@@ -1,25 +1,24 @@
+ import React, {PropTypes} from 'react';
+ import AnimeDayList from '../components/AnimeDayList';
+ 
+-export default class AnimeWeekList extends React.Component {
++function AnimeWeekList(props) {
++	const {lang, list} = props;
+ 
+-	render() {
+-		const {lang, list} = this.props;
+-
+-		return (
+-			<div>
+-				{list.map(obj => 
+-					<AnimeDayList
+-						key={obj.weekday.id}
+-						lang={lang}
+-						weekday={obj.weekday}
+-						items={obj.items} />
+-				)}
+-			</div>
+-		);
+-	}
++	return (
++		<div>
++			{list.map(obj => 
++				<AnimeDayList
++					key={obj.weekday.id}
++					lang={lang}
++					weekday={obj.weekday}
++					items={obj.items} />
++			)}
++		</div>
++	);
+ }
+ 
++export default AnimeWeekList;
++
+ AnimeWeekList.propTypes = {
+ 	lang: PropTypes.oneOf(['en', 'cn', 'ja']).isRequired,
+ 	list: PropTypes.arrayOf(PropTypes.shape({
+diff --git a/webpack.config.js b/webpack.config.js
+index 878e0e5..84db8b1 100644
+--- a/webpack.config.js
++++ b/webpack.config.js
+@@ -5,9 +5,13 @@ var BUILD_DIR = path.resolve(__dirname, 'build');
+ var APP_DIR = path.resolve(__dirname, 'src');
+ 
+ module.exports = {
+-	entry: APP_DIR + '/index.js',
++	entry: [
++		'webpack-dev-server/client?http://0.0.0.0:8080',
++		APP_DIR + '/index.js'
++	],
+ 
+ 	output: {
++		publicPath: "http://localhost:8080/build",
+ 		path: BUILD_DIR,
+ 		filename: 'bundle.js'
+ 	},
+-- 
+2.6.1.windows.1
+
